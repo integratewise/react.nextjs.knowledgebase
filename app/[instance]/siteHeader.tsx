@@ -17,10 +17,8 @@ interface Common {
 interface HeaderProps {
   common: Common;
   instanceId: string;
-  clientConfig: { siteId: string };
+  clientConfig: { siteId: string; useLocalData: boolean };
 }
-
-const socket = io("https://api.headlesshost.com");
 
 export default function SiteHeader({ common, instanceId, clientConfig }: HeaderProps) {
   const [showNav, setShowNav] = useState(false);
@@ -30,10 +28,13 @@ export default function SiteHeader({ common, instanceId, clientConfig }: HeaderP
   const { smallLogo, largeLogo, links: headerLinks = [] } = header?.content || {};
 
   useEffect(() => {
+    if (clientConfig.useLocalData) return;
+
+    const socket = io("https://api.headlesshost.com");
+
     function onStageUpdated(values: any) {
       console.log("CMS Updated", values);
       if (values?.instanceId !== instanceId) {
-        // Ignore updates from other instances
         return;
       }
       console.log("CMS Updated - clearing cache");
@@ -58,8 +59,9 @@ export default function SiteHeader({ common, instanceId, clientConfig }: HeaderP
       socket.emit("ContentSite-Leave", clientConfig.siteId);
       socket.off(clientConfig.siteId, onStageUpdated);
       socket.off(clientConfig.siteId, onPublish);
+      socket.disconnect();
     };
-  }, [clientConfig.siteId, instanceId]);
+  }, [clientConfig.siteId, clientConfig.useLocalData, instanceId]);
 
   const selectedCss = "block w-full pl-3.5 before:pointer-events-none before:absolute before:left-0.5 before:top-1/2 before:h-0.5 before:w-1.5 before:-translate-y-1/2 text-sky-500 before:bg-sky-500";
   const blankCss = "block w-full pl-3.5 before:pointer-events-none before:absolute before:left-0.5 before:top-1/2 before:h-0.5 before:w-1.5 before:-translate-y-1/2 text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-900 hover:before:block";
@@ -88,13 +90,15 @@ export default function SiteHeader({ common, instanceId, clientConfig }: HeaderP
                   <Link key={link.title} href={link.slug ?? ""} className="text-sm hover:text-sky-500 py-2.5 text-slate-900 font-display font-semibold">
                     {link.title}
                   </Link>
-                )
+                ),
               )}
             </nav>
           </div>
-          <div className="flex items-center flex-1 justify-end">
-            <Search instanceId={instanceId} navigation={links} />
-          </div>
+          {false && (
+            <div className="flex items-center flex-1 justify-end">
+              <Search instanceId={instanceId} navigation={links} />
+            </div>
+          )}
         </div>
       </header>
 
