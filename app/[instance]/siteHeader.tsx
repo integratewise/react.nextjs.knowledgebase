@@ -90,13 +90,15 @@ export default function SiteHeader({ common, instanceId, clientConfig }: HeaderP
                   <Link key={link.title} href={link.slug ?? ""} className="text-sm hover:text-sky-500 py-2.5 text-slate-900 font-display font-semibold">
                     {link.title}
                   </Link>
-                )
+                ),
               )}
             </nav>
           </div>
-          <div className="flex items-center flex-1 justify-end">
-            <Search instanceId={instanceId} navigation={links} />
-          </div>
+          {false && (
+            <div className="flex items-center flex-1 justify-end">
+              <Search instanceId={instanceId} navigation={links} />
+            </div>
+          )}
         </div>
       </header>
 
