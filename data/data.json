@@ -4,20 +4,14 @@
       {
         "id": "integratewise-head",
         "name": "IntegrateWise Docs",
-        "insertedAt": "2026-06-19T00:00:00.000Z",
-        "modifiedAt": "2026-06-19T00:00:00.000Z",
-        "isHead": true,
-        "stageUrl": "/{instance}",
-        "guideUrl": "/{instance}/guide"
+        "isHead": true
       }
     ],
     "publishedSites": [
       {
         "id": "integratewise-prod",
         "name": "IntegrateWise Docs",
-        "insertedAt": "2026-06-19T00:00:00.000Z",
         "isApproved": true,
-        "publishAt": "2026-06-19T00:00:00.000Z",
         "isProduction": true
       }
     ]
@@ -28,35 +22,24 @@
       "content": {
         "links": [],
         "largeLogo": {
-          "id": "logo.png",
           "url": "/logo.png",
-          "size": 4190,
           "width": 257,
-          "height": 30,
-          "mimetype": "image/png"
+          "height": 30
         },
         "smallLogo": {
-          "id": "logo.png",
           "url": "/logo.png",
-          "size": 630,
           "width": 30,
-          "height": 22,
-          "mimetype": "image/png"
+          "height": 22
         }
-      },
-      "version": 1,
-      "hasChanges": true
+      }
     },
     "footer": {
       "type": "SYS_FOOTER",
       "content": {
-        "title": "© 2026 IntegrateWise. Governed public projection."
-      },
-      "version": 1,
-      "hasChanges": false
+        "title": "© 2026 IntegrateWise LLP. Governed public projection of the Adaptive Spine and Knowledge Workspace."
+      }
     },
     "globals": {
-      "type": "SYS_GLOBALS",
       "content": {
         "links": [
           {
@@ -78,9 +61,14 @@
             ]
           },
           {
-            "group": "Guides & Solutions",
+            "group": "Guides",
             "links": [
-              { "slug": "connectors-overview", "title": "Connectors Overview" },
+              { "slug": "connectors-overview", "title": "Connectors Overview" }
+            ]
+          },
+          {
+            "group": "Solutions",
+            "links": [
               { "slug": "solutions-overview", "title": "Solutions Overview" }
             ]
           },
@@ -93,9 +81,7 @@
             ]
           }
         ]
-      },
-      "version": 1,
-      "hasChanges": true
+      }
     }
   },
   "map": {
@@ -103,7 +89,6 @@
       "pages": [
         { "slug": "what-is-integratewise", "title": "What Is IntegrateWise" },
         { "slug": "the-turning-point", "title": "The Turning Point" },
-        { "slug": "continuity-maintenance", "title": "Continuity Maintenance" },
         { "slug": "what-the-spine-is", "title": "What the Spine Is" },
         { "slug": "what-it-connects", "title": "What It Connects" },
         { "slug": "adaptive-by-design", "title": "Adaptive by Design" },
@@ -114,292 +99,317 @@
         { "slug": "glossary", "title": "Glossary" },
         { "slug": "customer-zero-verification", "title": "Customer Zero Verification" },
         { "slug": "customer-zero-runbook", "title": "Customer Zero Runbook" }
-      ],
-      "header": {},
-      "footer": {},
-      "globals": {}
+      ]
     }
   },
-  "guide": {
-    "name": "Component Guide",
-    "notes": "Reference for available section components in the IntegrateWise docs.",
-    "content": {
-      "sections": []
-    }
+  "authors": {
+    "result": [
+      {
+        "cid": "nirmal",
+        "content": {
+          "name": "Nirmal",
+          "image": { "url": "/user.png" }
+        }
+      }
+    ]
   },
-  "authors": { "items": [] },
+  "guide": {},
   "pages": {
     "what-is-integratewise": {
-      "id": "iw-what-is",
-      "identifier": "what-is-integratewise",
       "title": "What Is IntegrateWise",
       "sections": [
         {
+          "id": "ph1",
           "type": "PAGE_HEADER",
-          "title": "What Is IntegrateWise",
-          "introduction": "IntegrateWise maintains organizational continuity. It connects the tools where work already happens, stores truth and context in the Adaptive Spine, and exposes them through the Knowledge Workspace and the Twin."
+          "content": {
+            "title": "What Is IntegrateWise",
+            "introduction": "IntegrateWise maintains organizational continuity. It connects the tools where work already happens, stores truth and context in the Adaptive Spine, and exposes them through the Knowledge Workspace and the Twin. Every signal from every system feeds into one place. That place can think. You approve every move.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
         },
         {
+          "id": "s1",
           "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "The Origin",
-            "text": "The Spine was born on the floor of Salesforce, where Nirmal spent 13 years as a MuleSoft Integration Architect. Every day, the same ritual: open one system, check another, cross-reference a third, mentally stitch together the picture. The tools were excellent. None of them talked to each other. And someone had to bridge the gap.\n\nThat someone was the Human API. That someone built the Spine.\n\nThe Spine came first. Everything else followed."
+            "heading": { "headingType": "h2", "title": "The Origin" },
+            "content": "The Spine was born on the floor of Salesforce, where Nirmal spent 13 years as a MuleSoft Integration Architect. Every day, the same ritual: open one system, check another, cross-reference a third, mentally stitch together the picture. The tools were excellent. None of them talked to each other. And someone had to bridge the gap.\n\nThat someone was the Human API. That someone built the Spine.\n\nThe Spine came first. Everything else followed."
           }
         },
         {
+          "id": "s2",
           "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "What It Is",
-            "text": "IntegrateWise is the system that understands, remembers, reasons, and prepares execution — while execution happens in the customer's own environment.\n\nWe do not compete with workflow engines or automation platforms. We compete with the chaos of fragmented tools, disconnected context, and blind operational decisions.\n\nThe wedge: Every enterprise has 15+ tools. None of them talk to each other. The human operator becomes the integration layer. IntegrateWise replaces that burden with a unified intelligence layer that connects, unifies, understands, remembers, reasons, governs, prepares, and hands off."
+            "heading": { "headingType": "h2", "title": "What It Is" },
+            "content": "IntegrateWise is the system that understands, remembers, reasons, and prepares execution — while execution happens in the customer's own environment.\n\nWe do not compete with workflow engines or automation platforms. We compete with the chaos of fragmented tools, disconnected context, and blind operational decisions.\n\nThe wedge: Every enterprise has 15+ tools. None of them talk to each other. The human operator becomes the integration layer. IntegrateWise replaces that burden with a unified intelligence layer that connects, unifies, understands, remembers, reasons, governs, prepares, and hands off.\n\nIntegrateWise exposes five customer surfaces."
           }
         },
         {
-          "type": "STANDARD_HEADING",
-          "content": { "text": "Five Customer Surfaces" }
-        },
-        {
-          "type": "TEXT_BLOCK",
-          "content": {
-            "text": "IntegrateWise exposes five customer surfaces:\n\n• L1 Workbench — Main domain-specific operational surface\n• L2 Cognitive Overlay — Always-available intelligence layer (signals, insights, context)\n• L3 Twin Workbench — Conversational reasoning and planning (proposes only)\n• L4 Memory Workbench — Knowledge substrate (search, memory, documents)\n• Approval Center — Governance surface (review, approve, dispatch — the HARD GATE)\n\nL5 (Operations) and L6 (Execution) are Customer Zero only. Customers receive a Handoff Layer instead of native execution."
-          }
-        },
-        {
+          "id": "s3",
           "type": "INFO_BOX",
           "content": {
+            "colour": "blue",
             "title": "Two Modes",
-            "text": "Customer Zero Mode: Full stack (L0-L7) for internal ops and demos.\n\nExternal Customer Mode: Trimmed to 5 surfaces + Handoff (L1 Workbench, L2 Cognitive Overlay, L3 Twin Workbench, L4 Memory Workbench, Approval Center)."
+            "content": "Customer Zero Mode: Full stack (L0-L7) for IntegrateWise's internal operations and demos.\n\nExternal Customer Mode: Trimmed to 5 surfaces + Handoff Layer (L1 Workbench, L2 Cognitive Overlay, L3 Twin Workbench, L4 Memory Workbench, Approval Center)."
           }
         },
         {
+          "id": "s4",
           "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "How It Works",
-            "text": "The operating loop is simple and repeatable:\n\nConnect → Contextualize → Think → Approve → Handoff → Learn\n\n1. Connect — You connect your tools. Data enters the Adaptive Spine via the Continuity Bridge (MCP primary).\n2. Contextualize — Unstructured context is linked to entities in the Spine.\n3. Think — The Twin reads the full picture and generates proposals with evidence. The Twin proposes only.\n4. Approve — You review in the Approval Center. Your decision teaches the system.\n5. Handoff — On approval, the system prepares the canonical contract and dispatches to your execution environment.\n6. Learn — Outcomes feed back into the Adaptive Spine and Digital Memory."
+            "heading": { "headingType": "h2", "title": "The Five Customer Surfaces" },
+            "content": "L1 Workbench — Main domain-specific operational surface (Knowledge Workspace)\nL2 Cognitive Overlay — Always-available intelligence layer (signals, insights, context)\nL3 Twin Workbench — Conversational reasoning and planning (proposes only)\nL4 Memory Workbench — Knowledge substrate (search, memory, documents)\nApproval Center — Governance surface (review, approve, dispatch — the HARD GATE)\n\nL5 (Operations) and L6 (Execution) are Customer Zero only. Customers receive a Handoff Layer instead of native execution."
           }
         },
         {
+          "id": "s5",
           "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "Adaptive Spine",
-            "text": "The Adaptive Spine is the foundational layer of the Knowledge Workspace.\n\nIt connects source systems via the Continuity Bridge (MCP primary), extracts truth and relevant context, organizes them into one usable structure, and stores the result so the Knowledge Workspace (and the Twin) can read from one grounded view.\n\nThe Adaptive Spine is adaptive by design. It starts with a universal foundation — accounts, contacts, goals, outcomes — and extends itself based on your industry and department."
+            "heading": { "headingType": "h2", "title": "How It Works" },
+            "content": "The operating loop:\n\nConnect → Contextualize → Think → Approve → Handoff → Learn\n\n1. Connect — Tools connect via the Continuity Bridge (MCP primary).\n2. Contextualize — Context linked to entities in the Spine.\n3. Think — The Twin generates proposals with evidence (proposes only).\n4. Approve — Review in the Approval Center. Decisions teach the system.\n5. Handoff — Prepares canonical contract and dispatches to your execution environment.\n6. Learn — Outcomes feed back into the Adaptive Spine and Digital Memory."
+          }
+        },
+        {
+          "id": "s6",
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "heading": { "headingType": "h2", "title": "Adaptive Spine" },
+            "content": "The Adaptive Spine is the foundational layer. It connects source systems via the Continuity Bridge, extracts truth and context, organizes them into one usable structure, and stores the result so the Knowledge Workspace and Twin can read from one grounded view.\n\nIt is adaptive by design — starts universal and extends based on industry and department."
           }
         }
       ]
     },
     "the-turning-point": {
-      "id": "iw-turning",
-      "identifier": "the-turning-point",
       "title": "The Turning Point",
       "sections": [
         {
+          "id": "ph2",
           "type": "PAGE_HEADER",
-          "title": "The Turning Point",
-          "introduction": "How fragmented work led to the creation of the Adaptive Spine and Knowledge Workspace."
-        },
-        {
-          "type": "TEXT_BLOCK",
           "content": {
-            "text": "For years, organizations have been forced to live with a fundamental mismatch: powerful specialized tools that cannot talk to each other, and humans acting as the glue.\n\nThis created the Human API problem at massive scale.\n\nIntegrateWise was built to eliminate that burden."
+            "title": "The Turning Point",
+            "introduction": "How fragmented tools and the Human API problem led to the Adaptive Spine.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
           }
         },
         {
-          "type": "INFO_BOX",
+          "id": "tp1",
+          "type": "TEXT_BLOCK",
           "content": {
-            "title": "Key Realization",
-            "text": "The problem was never the individual tools. The problem was the missing layer that maintains continuity across them."
+            "content": "For years, organizations lived with a fundamental mismatch: powerful specialized tools that cannot talk to each other, and humans acting as the glue.\n\nThis created the Human API problem at massive scale. IntegrateWise was built to eliminate that burden."
           }
         }
       ]
     },
     "what-the-spine-is": {
-      "id": "iw-spine",
-      "identifier": "what-the-spine-is",
       "title": "What the Spine Is",
       "sections": [
         {
+          "id": "ph3",
           "type": "PAGE_HEADER",
-          "title": "What the Spine Is",
-          "introduction": "The Adaptive Spine is foundational infrastructure that powers the Knowledge Workspace."
+          "content": {
+            "title": "What the Spine Is",
+            "introduction": "The Adaptive Spine is foundational infrastructure (S0) that powers the entire Knowledge Workspace.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
         },
         {
+          "id": "sp1",
           "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "Core Idea",
-            "text": "The Adaptive Spine is the single source of truth for your organization's entities, relationships, and context.\n\nIt is invisible to end users but powers every surface: the Workbench, the Cognitive Overlay, the Twin, Memory, and the Approval Center.\n\nMCP is the primary protocol boundary. The Continuity Bridge is how the Twin and external AIs reach grounded context without ever reading your tools directly."
+            "heading": { "headingType": "h2", "title": "Core Idea" },
+            "content": "The Adaptive Spine is the single source of truth for your organization's entities, relationships, and context.\n\nIt is invisible to end users but powers every surface: the L1 Workbench, L2 Cognitive Overlay, L3 Twin Workbench, L4 Memory, and the Approval Center (HARD GATE).\n\nMCP is the primary protocol boundary. The Continuity Bridge is how the Twin and external AIs reach prepared context — never direct tool reads."
           }
         }
       ]
     },
     "how-the-workspace-works": {
-      "id": "iw-workspace",
-      "identifier": "how-the-workspace-works",
       "title": "How the Workspace Works",
       "sections": [
         {
+          "id": "ph4",
           "type": "PAGE_HEADER",
-          "title": "How the Workspace Works",
-          "introduction": "L1 Workbench + Entity 360"
+          "content": {
+            "title": "How the Workspace Works",
+            "introduction": "L1 Workbench + Entity 360 convergence",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
         },
         {
+          "id": "ws1",
           "type": "TEXT_BLOCK",
           "content": {
-            "text": "The Knowledge Workspace (L1) is where operational work happens. Domain views converge on Entity 360, giving you a complete picture of every account, opportunity, ticket, or custom entity — with truth from every connected system and context from the Twin and memory."
+            "content": "The Knowledge Workspace (L1) is where operational work happens. Domain views converge on Entity 360, giving a complete picture of every account, opportunity, ticket or custom entity — with verified truth from every connected system plus context from the Twin and Digital Memory."
           }
         }
       ]
     },
     "the-twin": {
-      "id": "iw-twin",
-      "identifier": "the-twin",
       "title": "The Twin",
       "sections": [
         {
+          "id": "ph5",
           "type": "PAGE_HEADER",
-          "title": "The Twin",
-          "introduction": "Bounded reasoning that proposes. You decide."
-        },
-        {
-          "type": "TEXT_BLOCK",
           "content": {
-            "text": "The Twin reads exclusively through the Continuity Bridge over prepared context from the Adaptive Spine and Digital Memory. It never has direct access to your tools.\n\nIt generates proposals, evidence, and plans. Approval always happens in the Approval Center (HARD GATE)."
+            "title": "The Twin",
+            "introduction": "Bounded reasoning that proposes. You govern and approve.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
           }
         },
         {
+          "id": "tw1",
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "heading": { "headingType": "h2", "title": "Bounded Reasoning" },
+            "content": "The Twin reads exclusively through the Continuity Bridge over prepared context from the Adaptive Spine + Digital Memory. It never has direct access to your tools.\n\nIt generates proposals, evidence, and plans. Approval always happens in the Approval Center (the HARD GATE)."
+          }
+        },
+        {
+          "id": "tw2",
           "type": "INFO_BOX",
           "content": {
+            "colour": "yellow",
             "title": "Twin Rule",
-            "text": "Twin proposes only. Humans (or governed processes) approve and act."
+            "content": "Twin proposes only. Humans (or governed processes) approve and act via the Handoff Layer."
           }
         }
       ]
     },
     "connectors-overview": {
-      "id": "iw-connectors",
-      "identifier": "connectors-overview",
       "title": "Connectors Overview",
       "sections": [
         {
+          "id": "ph6",
           "type": "PAGE_HEADER",
-          "title": "Connectors Overview",
-          "introduction": "Connectors are how your tools feed the Adaptive Spine via the Continuity Bridge (MCP primary)."
+          "content": {
+            "title": "Connectors Overview",
+            "introduction": "Connectors feed the Adaptive Spine via the Continuity Bridge (MCP primary).",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
         },
         {
+          "id": "co1",
           "type": "TEXT_BLOCK",
           "content": {
-            "text": "Every input to the Knowledge Workspace enters through a connector. The Spine doesn't care where data comes from — it cares about what it means and how it relates to your entities."
+            "content": "Every input to the Knowledge Workspace enters through a connector. The Spine doesn't care where data comes from. It cares about what it means and how it relates to your entities."
           }
         }
       ]
     },
     "solutions-overview": {
-      "id": "iw-solutions",
-      "identifier": "solutions-overview",
       "title": "Solutions Overview",
       "sections": [
         {
+          "id": "ph7",
           "type": "PAGE_HEADER",
-          "title": "Solutions Overview",
-          "introduction": "Role-specific expressions of the same Knowledge Workspace."
+          "content": {
+            "title": "Solutions Overview",
+            "introduction": "Role-specific expressions of the same Knowledge Workspace.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
         },
         {
+          "id": "so1",
           "type": "TEXT_BLOCK",
           "content": {
-            "text": "Solutions for Account Success, Sales Ops, Business Ops, Finance Ops, and Personal Ops all run on the shared Adaptive Spine, Continuity Bridge, and surfaces. Only the lens and primary workflows change."
+            "content": "Solutions for Account Success, Sales Ops, Business Ops, Finance Ops and Personal Ops all run on the shared Adaptive Spine, Continuity Bridge, and customer surfaces. Only the lens and primary workflows change per role and industry."
           }
         }
       ]
     },
     "glossary": {
-      "id": "iw-glossary",
-      "identifier": "glossary",
       "title": "Glossary",
       "sections": [
         {
+          "id": "ph8",
           "type": "PAGE_HEADER",
-          "title": "Glossary",
-          "introduction": "Key terms in the IntegrateWise system."
-        },
-        {
-          "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "Adaptive Spine",
-            "text": "The foundational layer that unifies truth and context from all connected tools."
+            "title": "Glossary",
+            "introduction": "Key terms aligned to the v3.7 External Customer Surface Lock.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
           }
         },
         {
+          "id": "gl1",
           "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "Continuity Bridge (MCP primary)",
-            "text": "The protocol boundary through which the Twin and external AIs access context. No direct tool reads."
+            "heading": { "headingType": "h2", "title": "Adaptive Spine" },
+            "content": "The foundational layer that unifies truth and context from all connected tools."
           }
         },
         {
+          "id": "gl2",
           "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "Handoff Layer",
-            "text": "The mechanism that prepares the canonical contract and delivers approved work to the customer's own execution environment."
+            "heading": { "headingType": "h2", "title": "Continuity Bridge (MCP primary)" },
+            "content": "The protocol boundary through which the Twin and external AIs access context. No direct tool reads ever."
           }
         },
         {
+          "id": "gl3",
           "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "HARD GATE",
-            "text": "The Approval Center (L7). No handoff package can be generated without an approval token."
+            "heading": { "headingType": "h2", "title": "Handoff Layer" },
+            "content": "Prepares the canonical handoff contract and delivers approved work to the customer's own execution environment."
+          }
+        },
+        {
+          "id": "gl4",
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "heading": { "headingType": "h2", "title": "HARD GATE" },
+            "content": "The Approval Center. No handoff package can be generated without an L7 approval token."
           }
         }
       ]
     },
     "customer-zero-verification": {
-      "id": "iw-cz-verify",
-      "identifier": "customer-zero-verification",
       "title": "Customer Zero Verification",
       "sections": [
         {
+          "id": "ph9",
           "type": "PAGE_HEADER",
-          "title": "Customer Zero Verification Panel",
-          "introduction": "Observable proof that the system assembles correctly."
+          "content": {
+            "title": "Customer Zero Verification Panel",
+            "introduction": "Observable proof that the Knowledge Workspace, Adaptive Spine, and Continuity Bridge are assembling correctly.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
         },
         {
+          "id": "czv1",
           "type": "TEXT_BLOCK",
           "content": {
-            "text": "Each verification box maps to a concrete stage:\n\nIdentity → tenant_spine_config (schema_version = v2)\nConnectors → connected_connectors (>0)\nHydration → creamy jobs (completed)\nSpine → *_data partitions (>0 rows)\nMemory → org_memory (>0)\nContinuity → assembler (memories returned)\nTwin → activation gate (activated = true)"
+            "content": "Each box maps to a concrete stage:\n\n• Identity — tenant_spine_config (schema_version = v2)\n• Connectors — connected_connectors (>0)\n• Hydration — creamy jobs (completed)\n• Spine — *_data partitions (>0 rows)\n• Memory — org_memory (>0)\n• Continuity — assembler (memories returned)\n• Twin — activation gate (activated = true)"
           }
         }
       ]
     },
     "customer-zero-runbook": {
-      "id": "iw-cz-runbook",
-      "identifier": "customer-zero-runbook",
       "title": "Customer Zero Runbook",
       "sections": [
         {
+          "id": "ph10",
           "type": "PAGE_HEADER",
-          "title": "Customer Zero Runbook",
-          "introduction": "11-step operational playbook for onboarding and validation."
-        },
-        {
-          "type": "ORDERED_LIST",
           "content": {
-            "items": [
-              "Create tenant",
-              "Complete profile",
-              "Verify Identity box turns green",
-              "Connect first connector (e.g. GitHub or HubSpot)",
-              "Trigger hydration / initial sync",
-              "Confirm Spine data partitions have rows",
-              "Promote first memories to org_memory",
-              "Verify Continuity assembler returns context",
-              "Activate Twin and confirm proposals appear",
-              "Perform end-to-end approval + handoff test",
-              "Capture full green panel + evidence"
-            ]
+            "title": "Customer Zero Runbook",
+            "introduction": "11-step operational playbook for a successful tenant onboarding and validation run.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
           }
         },
         {
-          "type": "INFO_BOX",
+          "id": "czr1",
+          "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "title": "Note",
-            "text": "See the full runbook in the original VitePress reference for timings and failure signatures."
+            "heading": { "headingType": "h2", "title": "The 11 Steps" },
+            "content": "1. Create tenant\n2. Complete profile\n3. Verify Identity box turns green\n4. Connect first connector\n5. Trigger hydration / initial sync\n6. Confirm Spine data partitions have rows\n7. Promote first memories to org_memory\n8. Verify Continuity assembler returns context\n9. Activate Twin and confirm proposals\n10. Perform end-to-end approval + handoff test\n11. Capture full green panel + evidence"
           }
         }
       ]
