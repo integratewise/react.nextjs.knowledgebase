@@ -2,51 +2,23 @@
   "list": {
     "stagingSites": [
       {
-        "id": "b08ca852-7166-475c-a3d5-157cdcd74209",
-        "name": "Default staging site",
-        "insertedAt": "2024-07-08T20:37:22.172Z",
-        "modifiedAt": "2025-05-21T00:08:50.996Z",
+        "id": "integratewise-head",
+        "name": "IntegrateWise Docs",
+        "insertedAt": "2026-06-19T00:00:00.000Z",
+        "modifiedAt": "2026-06-19T00:00:00.000Z",
         "isHead": true,
-        "stageUrl": "https://react-nextjs-knowledgebase.vercel.app/{instance}",
-        "guideUrl": "https://react-nextjs-knowledgebase.vercel.app/{instance}/guide"
+        "stageUrl": "/{instance}",
+        "guideUrl": "/{instance}/guide"
       }
     ],
     "publishedSites": [
       {
-        "id": "976e0cb4-f04f-4df3-9056-8deb31095e1d",
-        "name": "Default staging site",
-        "insertedAt": "2025-09-30T20:18:13.329Z",
+        "id": "integratewise-prod",
+        "name": "IntegrateWise Docs",
+        "insertedAt": "2026-06-19T00:00:00.000Z",
         "isApproved": true,
-        "publishAt": "2025-09-30T20:18:14.329Z",
+        "publishAt": "2026-06-19T00:00:00.000Z",
         "isProduction": true
-      },
-      {
-        "id": "b71e7bcd-92c4-49fe-a063-80512f1e5ad8",
-        "name": "Default staging site",
-        "insertedAt": "2025-05-21T00:12:15.559Z",
-        "isApproved": true,
-        "publishAt": "2025-05-21T00:12:16.559Z"
-      },
-      {
-        "id": "119c7bd1-be9c-49fa-b774-99a7ffb7b3d7",
-        "name": "Default staging site",
-        "insertedAt": "2025-05-21T00:09:38.520Z",
-        "isApproved": true,
-        "publishAt": "2025-05-21T00:09:39.520Z"
-      },
-      {
-        "id": "1b7b1e1c-c369-4fd3-a979-1cc56fbc90dd",
-        "name": "Default staging site",
-        "insertedAt": "2025-05-20T23:41:26.644Z",
-        "isApproved": true,
-        "publishAt": "2025-05-20T23:41:27.644Z"
-      },
-      {
-        "id": "5f1de853-b735-4878-8fff-7338d9c1f6b7",
-        "name": "Default staging site",
-        "insertedAt": "2025-01-28T21:04:46.863Z",
-        "isApproved": true,
-        "publishAt": "2025-01-28T21:04:47.863Z"
       }
     ]
   },
@@ -56,18 +28,16 @@
       "content": {
         "links": [],
         "largeLogo": {
-          "id": "2282c98d-2e4a-415f-9652-2c37808f24fd.png",
-          "cid": "3fa2e0e4-dcd9-45e4-8a71-52ed0cb84025",
-          "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/2282c98d-2e4a-415f-9652-2c37808f24fd.png",
+          "id": "logo.png",
+          "url": "/logo.png",
           "size": 4190,
           "width": 257,
           "height": 30,
           "mimetype": "image/png"
         },
         "smallLogo": {
-          "id": "f0eb6150-4d0f-4855-a905-efdeb2de30da.png",
-          "cid": "09e08822-b900-46b7-a4ea-3d45b4c93bd9",
-          "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/f0eb6150-4d0f-4855-a905-efdeb2de30da.png",
+          "id": "logo.png",
+          "url": "/logo.png",
           "size": 630,
           "width": 30,
           "height": 22,
@@ -80,7 +50,7 @@
     "footer": {
       "type": "SYS_FOOTER",
       "content": {
-        "title": "2025 Headlesshost"
+        "title": "© 2026 IntegrateWise. Governed public projection."
       },
       "version": 1,
       "hasChanges": false
@@ -92,3382 +62,345 @@
           {
             "group": "Getting Started",
             "links": [
-              {
-                "slug": "gs_intro",
-                "title": "Introduction",
-                "target": "_self"
-              },
-              {
-                "slug": "gs_components",
-                "title": "Components",
-                "target": "_self"
-              }
+              { "slug": "what-is-integratewise", "title": "What Is IntegrateWise" },
+              { "slug": "the-turning-point", "title": "The Turning Point" },
+              { "slug": "continuity-maintenance", "title": "Continuity Maintenance" }
             ]
           },
           {
-            "group": "Deployment",
+            "group": "Core Concepts",
             "links": [
-              {
-                "slug": "dp_vercel",
-                "title": "Vercel",
-                "target": "_self"
-              },
-              {
-                "slug": "dp_local",
-                "title": "Local",
-                "target": "_self"
-              }
+              { "slug": "what-the-spine-is", "title": "What the Spine Is" },
+              { "slug": "what-it-connects", "title": "What It Connects" },
+              { "slug": "adaptive-by-design", "title": "Adaptive by Design" },
+              { "slug": "how-the-workspace-works", "title": "How the Workspace Works" },
+              { "slug": "the-twin", "title": "The Twin" }
             ]
           },
           {
-            "group": "Headlesshost",
+            "group": "Guides & Solutions",
             "links": [
-              {
-                "slug": "hh_setup",
-                "title": "Staging setup",
-                "target": "_self"
-              },
-              {
-                "slug": "hh_content",
-                "title": "Add content",
-                "target": "_self"
-              },
-              {
-                "slug": "hh_page",
-                "title": "Add pages",
-                "target": "_self"
-              },
-              {
-                "slug": "hh_sections",
-                "title": "Create sections",
-                "target": "_self"
-              }
+              { "slug": "connectors-overview", "title": "Connectors Overview" },
+              { "slug": "solutions-overview", "title": "Solutions Overview" }
             ]
           },
           {
-            "group": "About",
+            "group": "Reference",
             "links": [
-              {
-                "slug": "ab_contact",
-                "title": "Contact",
-                "target": "_self"
-              }
+              { "slug": "glossary", "title": "Glossary" },
+              { "slug": "customer-zero-verification", "title": "Customer Zero Verification" },
+              { "slug": "customer-zero-runbook", "title": "Customer Zero Runbook" }
             ]
           }
         ]
       },
-      "version": 20,
-      "hasChanges": false
+      "version": 1,
+      "hasChanges": true
     }
   },
   "map": {
-    "id": "976e0cb4-f04f-4df3-9056-8deb31095e1d",
-    "version": 650,
     "content": {
-      "footer": {
-        "type": "SYS_FOOTER",
-        "content": {
-          "title": "2025 Headlesshost"
-        },
-        "version": 1,
-        "hasChanges": false
-      },
-      "header": {
-        "type": "SYS_HEADER",
-        "content": {
-          "links": [],
-          "largeLogo": {
-            "id": "2282c98d-2e4a-415f-9652-2c37808f24fd.png",
-            "cid": "3fa2e0e4-dcd9-45e4-8a71-52ed0cb84025",
-            "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/2282c98d-2e4a-415f-9652-2c37808f24fd.png",
-            "size": 4190,
-            "width": 257,
-            "height": 30,
-            "mimetype": "image/png"
-          },
-          "smallLogo": {
-            "id": "f0eb6150-4d0f-4855-a905-efdeb2de30da.png",
-            "cid": "09e08822-b900-46b7-a4ea-3d45b4c93bd9",
-            "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/f0eb6150-4d0f-4855-a905-efdeb2de30da.png",
-            "size": 630,
-            "width": 30,
-            "height": 22,
-            "mimetype": "image/png"
-          }
-        },
-        "version": 1,
-        "hasChanges": true
-      },
-      "globals": {
-        "type": "SYS_GLOBALS",
-        "content": {
-          "links": [
-            {
-              "group": "Getting Started",
-              "links": [
-                {
-                  "slug": "gs_intro",
-                  "title": "Introduction",
-                  "target": "_self"
-                },
-                {
-                  "slug": "gs_components",
-                  "title": "Components",
-                  "target": "_self"
-                }
-              ]
-            },
-            {
-              "group": "Deployment",
-              "links": [
-                {
-                  "slug": "dp_vercel",
-                  "title": "Vercel",
-                  "target": "_self"
-                },
-                {
-                  "slug": "dp_local",
-                  "title": "Local",
-                  "target": "_self"
-                }
-              ]
-            },
-            {
-              "group": "Headlesshost",
-              "links": [
-                {
-                  "slug": "hh_setup",
-                  "title": "Staging setup",
-                  "target": "_self"
-                },
-                {
-                  "slug": "hh_content",
-                  "title": "Add content",
-                  "target": "_self"
-                },
-                {
-                  "slug": "hh_page",
-                  "title": "Add pages",
-                  "target": "_self"
-                },
-                {
-                  "slug": "hh_sections",
-                  "title": "Create sections",
-                  "target": "_self"
-                }
-              ]
-            },
-            {
-              "group": "About",
-              "links": [
-                {
-                  "slug": "ab_contact",
-                  "title": "Contact",
-                  "target": "_self"
-                }
-              ]
-            }
-          ]
-        },
-        "version": 20,
-        "hasChanges": false
-      },
       "pages": [
-        {
-          "id": "365030c7-3f5b-48fb-889f-3b84c35f5b11",
-          "title": "Create sections",
-          "identifier": "hh_sections",
-          "enableRoles": false,
-          "version": "8613b048-3349-4f18-a1b3-8f816b97f9da",
-          "index": 6,
-          "sections": [
-            {
-              "id": "22f3ef64-90e6-45b2-a6af-8cccc9248cf3",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "4beb22ce-41a5-4755-b6f3-58b9a2c0a8d3",
-              "index": 21,
-              "enableRoles": false
-            },
-            {
-              "id": "dcc1c6f6-b8e5-44ef-a89a-d8dd81d104cb",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "cd9c6016-c0c2-4cf6-b774-22d74aab194a",
-              "index": 19,
-              "enableRoles": false
-            },
-            {
-              "id": "6043f218-62d3-413d-91b3-cd2eaaf08edb",
-              "type": "IMAGE",
-              "title": null,
-              "version": "2e154b05-a396-456c-b8c6-2c8e1273f0ad",
-              "index": 1,
-              "enableRoles": false
-            },
-            {
-              "id": "0bec63b2-599f-44b5-b227-d9986e66a8af",
-              "type": "PAGE_HEADER",
-              "title": "Sections",
-              "version": "f3b9825e-47af-4278-a70c-0c295a7a5861",
-              "index": 0,
-              "enableRoles": false
-            },
-            {
-              "id": "ed54ce60-a0e8-4664-b82f-5ff1d678433a",
-              "type": "IMAGE",
-              "title": null,
-              "version": "ac44ff49-a88e-4ed1-9352-e25c348d7ad5",
-              "index": 22,
-              "enableRoles": false
-            },
-            {
-              "id": "b3266738-3416-48e0-bc68-fd643988ed92",
-              "type": "IMAGE",
-              "title": null,
-              "version": "500dce9d-abfa-4aa0-8841-01c06cfae54a",
-              "index": 20,
-              "enableRoles": false
-            },
-            {
-              "id": "e6ef3c41-6b39-4908-a90c-4d07e4a26aac",
-              "type": "IMAGE",
-              "title": null,
-              "version": "8577fa54-bc19-45ea-b146-5f1285708bea",
-              "index": 24,
-              "enableRoles": false
-            },
-            {
-              "id": "5d586989-4534-49b0-82a1-c27a253cb027",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "a83612c6-98ad-4e93-a716-30469d0f2abc",
-              "index": 17,
-              "enableRoles": false
-            },
-            {
-              "id": "818a706b-0583-4aca-86a2-3ed8e90bbabc",
-              "type": "CODE_BLOCK",
-              "title": "Section",
-              "version": "dbfd45d7-28df-462e-9094-5b221a58117e",
-              "index": 18,
-              "enableRoles": false
-            },
-            {
-              "id": "7143c82e-535c-42b7-8116-836e01b2f239",
-              "type": "CODE_BLOCK",
-              "title": "Section",
-              "version": "6064a87a-b766-4681-b549-88d93fc3ea8e",
-              "index": 16,
-              "enableRoles": false
-            },
-            {
-              "id": "4e3cd871-a132-4f48-b99e-89819a03774e",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "46816c74-725a-41ed-b99f-8e026c5174b2",
-              "index": 15,
-              "enableRoles": false
-            },
-            {
-              "id": "273203fe-d325-47c8-9ee2-4a755640d7f1",
-              "type": "CODE_BLOCK",
-              "title": "Gallery Opening Code",
-              "version": "a4a33d40-e67d-4293-8813-2718f07fa755",
-              "index": 14,
-              "enableRoles": false
-            },
-            {
-              "id": "32741fea-d01b-4878-8fad-baf97196f723",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "33aec4e9-04ac-4dc2-a9f1-81e1b83830b2",
-              "index": 13,
-              "enableRoles": false
-            },
-            {
-              "id": "c48b949c-5f94-4d8d-9285-c4ffdf0cd08d",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "7701599a-6369-4a69-8b82-1b37ce2ac42f",
-              "index": 12,
-              "enableRoles": false
-            },
-            {
-              "id": "060d47df-fd7d-4838-9607-ba30d3ba38f9",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "73ec6321-2ee8-4152-a897-2c49aea072c7",
-              "index": 5,
-              "enableRoles": false
-            },
-            {
-              "id": "7bacdab2-62d9-4e03-8674-1190911bdeab",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "c8734f2e-d71e-4d06-9352-98554c21ce44",
-              "index": 7,
-              "enableRoles": false
-            },
-            {
-              "id": "cfa89fac-8d7b-4569-a092-088dbc44c1d1",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "21d62c97-5fac-4d15-a34b-78ff0913220b",
-              "index": 10,
-              "enableRoles": false
-            },
-            {
-              "id": "d6e82c8b-8738-490a-b5b6-cf63f42d7522",
-              "type": "IMAGE",
-              "title": null,
-              "version": "4e262eb7-8339-48a2-ac38-4f5e3deb2ae2",
-              "index": 9,
-              "enableRoles": false
-            },
-            {
-              "id": "73f019f3-49e6-4cba-9f08-61faa27f9270",
-              "type": "IMAGE",
-              "title": null,
-              "version": "2501f265-2c84-43db-98d5-7fb8de63c2fd",
-              "index": 11,
-              "enableRoles": false
-            },
-            {
-              "id": "076fa3b1-8c2c-42d0-a0c5-beaf3ea55100",
-              "type": "IMAGE",
-              "title": null,
-              "version": "1329a19b-3268-4421-a2bf-573305807b12",
-              "index": 8,
-              "enableRoles": false
-            },
-            {
-              "id": "801692e7-1d6d-4fec-8d11-78ec52baa176",
-              "type": "IMAGE",
-              "title": null,
-              "version": "8eafe13e-812f-4e33-a5f9-22f7951c4a44",
-              "index": 4,
-              "enableRoles": false
-            },
-            {
-              "id": "6160be6f-e139-4a44-8bc9-dade2ab4e60c",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "846a6759-2707-40f5-92de-825ac25e578f",
-              "index": 3,
-              "enableRoles": false
-            },
-            {
-              "id": "6f7e9660-c027-4e98-bfa7-98d80a647d67",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "5ae8f49b-1b32-4dd1-9299-4a1dbeb32791",
-              "index": 23,
-              "enableRoles": false
-            },
-            {
-              "id": "52153bd1-e4ff-44e0-9d34-c5da23976af6",
-              "type": "IMAGE",
-              "title": null,
-              "version": "2aca74b3-ab96-4dc7-89a7-f1628b91bad0",
-              "index": 6,
-              "enableRoles": false
-            },
-            {
-              "id": "fe7e44cd-39a5-48fb-8c61-6716547f4291",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "88708601-f9da-4d07-9b0a-26609a68412e",
-              "index": 2,
-              "enableRoles": false
-            }
-          ]
-        },
-        {
-          "id": "cc1965f8-1a2c-4b6c-be6c-e16f0a44b0e8",
-          "title": "Components",
-          "identifier": "gs_components",
-          "enableRoles": false,
-          "version": "ac8644f6-42ed-4fd8-98c4-e829512b97d9",
-          "index": 2,
-          "sections": [
-            {
-              "id": "2b97ac17-9396-487a-9569-e32db8ac9896",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "4bfc9e68-b93d-4ba3-81c3-3a90b1adbcee",
-              "index": 2,
-              "enableRoles": false
-            },
-            {
-              "id": "2273f6b8-b66d-441e-931c-fd53d9ad4a43",
-              "type": "IMAGE",
-              "title": "Njideka Akunyili",
-              "version": "66ed98eb-e2ce-4bc0-917d-f3d616c731a4",
-              "index": 17,
-              "enableRoles": false
-            },
-            {
-              "id": "f7234f38-d3ef-4946-9887-0e7821a9fcb4",
-              "type": "IMAGE",
-              "title": "Hirst",
-              "version": "5ec8e5a9-c6d0-4e92-9586-2254b9be01f3",
-              "index": 13,
-              "enableRoles": false
-            },
-            {
-              "id": "899a80a6-8ee0-4f5c-950e-cbe162ef51fe",
-              "type": "CODE_BLOCK",
-              "title": "Code block",
-              "version": "7439aae8-c89f-4e69-b448-ecd047cc3e7f",
-              "index": 11,
-              "enableRoles": false
-            },
-            {
-              "id": "a87e8d51-b2c6-4cb7-b2de-fae538f73be7",
-              "type": "INFO_BOX",
-              "title": "Green info box",
-              "version": "69195fb1-3c38-4453-8091-6468cc94cf51",
-              "index": 15,
-              "enableRoles": false
-            },
-            {
-              "id": "2a0d084b-28cd-4244-a725-18f72914eeb9",
-              "type": "IMAGE",
-              "title": "Jessica",
-              "version": "a5f5577e-39a1-47e4-aad7-d24b9200165b",
-              "index": 8,
-              "enableRoles": false
-            },
-            {
-              "id": "53ad3d1e-eb77-44bd-9ced-11d00e120e73",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "d723460f-29cd-4324-9f0c-331f72894baa",
-              "index": 14,
-              "enableRoles": false
-            },
-            {
-              "id": "f9481e9e-d3f6-471e-a28d-a11644156717",
-              "type": "INFO_BOX",
-              "title": "Info box",
-              "version": "3fb2fa37-7386-4a86-a479-c530832fc64e",
-              "index": 12,
-              "enableRoles": false
-            },
-            {
-              "id": "cb0e5da4-ee74-4fe3-b223-12a50530bff3",
-              "type": "ORDERED_LIST",
-              "title": null,
-              "version": "3f00325a-1742-4e4b-8431-732e7d0c3532",
-              "index": 16,
-              "enableRoles": false
-            },
-            {
-              "id": "4eb8cbf7-5713-4e8a-bbc1-2d0857e621ec",
-              "type": "ACTION_BOX",
-              "title": "Action box",
-              "version": "cd08243d-fa7e-47ad-818a-89a0c0b85f8c",
-              "index": 7,
-              "enableRoles": false
-            },
-            {
-              "id": "daa5ccce-f3d3-41e9-b470-46d2a18ce35e",
-              "type": "PAGE_HEADER",
-              "title": "Components",
-              "version": "ea31c369-9a38-4874-8fbd-eca8d15bf354",
-              "index": 0,
-              "enableRoles": false
-            },
-            {
-              "id": "09c378c5-a46d-4759-95c8-10903d5e8a81",
-              "type": "AUTHOR_TABLE",
-              "title": "All the authors",
-              "version": "93172ca6-f625-4e8c-8f04-5c092fb0078d",
-              "index": 1,
-              "enableRoles": false
-            },
-            {
-              "id": "7142d2df-bb8c-4aca-87f9-4d3f2bbd889f",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "34d59864-7aa7-4f2f-a08c-d5586588bd40",
-              "index": 9,
-              "enableRoles": false
-            },
-            {
-              "id": "8e52601d-2e39-4e7f-8c1c-d2a9a836aae4",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "bd50666e-15a5-4d86-bb71-82ca115b1570",
-              "index": 6,
-              "enableRoles": false
-            },
-            {
-              "id": "7de8fd59-8ad9-48c8-9f59-c955cc6ff5f0",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "8b81561c-e529-4f27-9d19-c122988a2cae",
-              "index": 4,
-              "enableRoles": false
-            },
-            {
-              "id": "10ad8dc3-7bf7-4560-a997-8dfc1e04d145",
-              "type": "IMAGE",
-              "title": null,
-              "version": "4084c7b9-d96c-47fe-9dc1-c06eca788d46",
-              "index": 3,
-              "enableRoles": false
-            },
-            {
-              "id": "cb9b8db6-be54-4750-95b9-2f03283896e9",
-              "type": "STANDARD_HEADING",
-              "title": null,
-              "version": "7a24b2c1-052e-4e81-869b-5bc0d9c85461",
-              "index": 10,
-              "enableRoles": false
-            },
-            {
-              "id": "b0cc7bbd-e264-4710-8720-8ab078a1ee74",
-              "type": "IMAGE",
-              "title": "Mike Perry",
-              "version": "cb448d8d-0e44-4612-af09-d92653ce559d",
-              "index": 5,
-              "enableRoles": false
-            }
-          ]
-        },
-        {
-          "id": "3d04ec13-71ac-4e6a-a8fe-243879573008",
-          "title": "Add pages",
-          "identifier": "hh_page",
-          "enableRoles": false,
-          "version": "a0eea190-a8cb-42ef-9db1-70809ca7ecb5",
-          "index": 8,
-          "sections": [
-            {
-              "id": "d1fbe28e-40cc-4938-9eb0-b6488f8838be",
-              "type": "IMAGE",
-              "title": null,
-              "version": "68a0c46a-f747-4044-a161-abe5e155cb06",
-              "index": 5,
-              "enableRoles": false
-            },
-            {
-              "id": "9967a31a-d0ac-4e02-afc1-f99473583238",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "15be6a5c-c806-4fb4-a8cf-5e405bedc253",
-              "index": 4,
-              "enableRoles": false
-            },
-            {
-              "id": "3f6898be-9799-4ff5-aea2-dc8ba24e69ca",
-              "type": "IMAGE",
-              "title": null,
-              "version": "4f38c57b-fa29-4031-b50f-b42853f5750a",
-              "index": 3,
-              "enableRoles": false
-            },
-            {
-              "id": "98241013-c479-485c-96de-4ca3d223d66e",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "a2771135-8fdd-4037-90a1-58c97e523dba",
-              "index": 2,
-              "enableRoles": false
-            },
-            {
-              "id": "2f861061-5d50-4efc-b680-3278b3af155e",
-              "type": "IMAGE",
-              "title": null,
-              "version": "5387e9cf-f932-4567-84e9-83f4da8f7ed1",
-              "index": 7,
-              "enableRoles": false
-            },
-            {
-              "id": "022106ec-5758-400e-a5d0-7ea4f89818c9",
-              "type": "PAGE_HEADER",
-              "title": "Add pages",
-              "version": "c7beefb5-6b7f-4fb2-9e11-6bbfd517cf3f",
-              "index": 0,
-              "enableRoles": false
-            },
-            {
-              "id": "7f073e5c-c390-463e-bbd2-d0d19b882187",
-              "type": "ORDERED_LIST",
-              "title": null,
-              "version": "95254f03-98cb-4231-846f-dc502a0dc5fb",
-              "index": 1,
-              "enableRoles": false
-            },
-            {
-              "id": "ae082213-a2f2-47e9-94d5-211ffffb369c",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "834441ef-3699-4ee0-98e0-c663c8ecf1f0",
-              "index": 6,
-              "enableRoles": false
-            }
-          ]
-        },
-        {
-          "id": "04b4693f-de8c-44b7-87e1-5fb63c7d60c9",
-          "title": "Local deployment",
-          "identifier": "dp_local",
-          "enableRoles": false,
-          "version": "cb0a19b1-eb3d-4d59-80ae-78ca8da70b4b",
-          "index": 1,
-          "sections": [
-            {
-              "id": "c0dbb1ba-1df6-4fbd-8a19-a1f66013b24d",
-              "type": "CODE_BLOCK",
-              "title": "Code",
-              "version": "b2083cbd-9171-400e-9697-7f8845a1a566",
-              "index": 14,
-              "enableRoles": false
-            },
-            {
-              "id": "ac699282-936c-4f9e-80e4-174b1b2deeb8",
-              "type": "NAV_LINK",
-              "title": null,
-              "version": "e8d7e08a-746c-48ff-92b7-cc9499e05ab2",
-              "index": 1,
-              "enableRoles": false
-            },
-            {
-              "id": "caf019c3-3c43-429b-98e6-46a55d3f3c28",
-              "type": "ORDERED_LIST",
-              "title": null,
-              "version": "76222f08-1dea-42d4-94a7-c19c89bbcd58",
-              "index": 3,
-              "enableRoles": false
-            },
-            {
-              "id": "8270ade1-8da4-43bc-934e-4bccbdcca702",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "d87782f9-1cda-455c-99d0-a1c31af1285a",
-              "index": 15,
-              "enableRoles": false
-            },
-            {
-              "id": "e87b7d00-86bb-45f2-aa20-c1e4b75ddec7",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "183341f0-45e2-4e02-b20b-ed8640975c3e",
-              "index": 5,
-              "enableRoles": false
-            },
-            {
-              "id": "065d798b-5a1b-4fce-b1d1-ecf173a864b2",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "439f9c35-d4a5-4872-8af7-20b37369ffee",
-              "index": 11,
-              "enableRoles": false
-            },
-            {
-              "id": "686fec8a-5442-4b1a-ad18-bd060cda9c1a",
-              "type": "IMAGE",
-              "title": "Content site id",
-              "version": "99fb8cee-34fb-4ad1-9fb4-7b07c4d2cd26",
-              "index": 12,
-              "enableRoles": false
-            },
-            {
-              "id": "5febd433-597d-40d7-8cd9-55187b26add1",
-              "type": "IMAGE",
-              "title": "Create site",
-              "version": "94c422fc-9e94-4aab-b02b-77332911291f",
-              "index": 10,
-              "enableRoles": false
-            },
-            {
-              "id": "5fbfb3bf-0217-44f1-9123-07f7a2f20284",
-              "type": "ACTION_BOX",
-              "title": "Headlesshost account setup",
-              "version": "7b18096d-2a0b-4f66-a9a5-f14aece69798",
-              "index": 6,
-              "enableRoles": false
-            },
-            {
-              "id": "41fdd6d2-16d2-472e-9aba-3bb347d24e6c",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "edc4a8e0-3702-45cf-91ad-dbbde89e8b8a",
-              "index": 9,
-              "enableRoles": false
-            },
-            {
-              "id": "52532449-639f-4350-a512-2ed00af99fa6",
-              "type": "IMAGE",
-              "title": "Success",
-              "version": "d5577611-4d78-4dac-b500-e49125a046f5",
-              "index": 16,
-              "enableRoles": false
-            },
-            {
-              "id": "a275b47c-1495-45a7-a082-617d6cb3f60b",
-              "type": "IMAGE",
-              "title": "Home",
-              "version": "a4d2920d-0b9c-4000-81bd-5f7774c4195d",
-              "index": 8,
-              "enableRoles": false
-            },
-            {
-              "id": "c7cab973-d04e-4d75-9336-27ef811ab542",
-              "type": "NAV_LINK",
-              "title": null,
-              "version": "416c7969-e9af-4566-8d87-d25b4aba7382",
-              "index": 4,
-              "enableRoles": false
-            },
-            {
-              "id": "d96332f4-917b-4011-95cd-c1a07355d92d",
-              "type": "STANDARD_HEADING",
-              "title": null,
-              "version": "b7e171d8-e4aa-4ad1-a325-c38b36e977ba",
-              "index": 2,
-              "enableRoles": false
-            },
-            {
-              "id": "06b36b4b-feec-490e-acfe-edd25a94f8b1",
-              "type": "PAGE_HEADER",
-              "title": "Local deployment",
-              "version": "7e48d02f-cf82-46a4-acdc-31452d4a996a",
-              "index": 0,
-              "enableRoles": false
-            },
-            {
-              "id": "507293de-c942-49ac-8d11-086733cada99",
-              "type": "ACTION_BOX",
-              "title": "Add content",
-              "version": "9911426d-6829-4e69-ba5d-59beae258aaf",
-              "index": 17,
-              "enableRoles": false
-            },
-            {
-              "id": "f0893544-b3be-4000-8c8f-2360706d68e8",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "2b509f86-ead2-4f4a-83cb-a40dd0122f6b",
-              "index": 13,
-              "enableRoles": false
-            },
-            {
-              "id": "fd66a6d7-a5f4-4f55-81d2-51384fec0399",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "2108907c-2283-4054-a66c-86072382aa65",
-              "index": 7,
-              "enableRoles": false
-            }
-          ]
-        },
-        {
-          "id": "9823a548-d2af-49fd-b3a3-0da3cf621d02",
-          "title": "Staging setup",
-          "identifier": "hh_setup",
-          "enableRoles": false,
-          "version": "4405e643-c794-4269-bfd9-539de6db78d6",
-          "index": 7,
-          "sections": [
-            {
-              "id": "4ed25964-246a-4f5e-8ff3-3a72d820d73d",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "e218ec2f-4bf6-4e32-b3df-be7b2e311d4d",
-              "index": 8,
-              "enableRoles": false
-            },
-            {
-              "id": "cdf85b37-5bb8-40b5-af6a-308e86da8cae",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "49df163b-95de-4ed1-9aab-94841c8a4458",
-              "index": 6,
-              "enableRoles": false
-            },
-            {
-              "id": "715b56fb-82b8-47e0-8a75-702dc5b03fda",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "a81a2f48-c861-40fc-8132-5dbbb2e772da",
-              "index": 4,
-              "enableRoles": false
-            },
-            {
-              "id": "a1d36332-4e94-45f5-8743-772493a0a666",
-              "type": "IMAGE",
-              "title": null,
-              "version": "3fb06f57-e3d9-4b44-8b85-87c2ae671729",
-              "index": 1,
-              "enableRoles": false
-            },
-            {
-              "id": "ace23581-6fff-483e-aa3b-d3540bc25368",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "cd8bd5d1-cd2c-4f13-b799-2ec83135b16c",
-              "index": 2,
-              "enableRoles": false
-            },
-            {
-              "id": "8f1e5cbc-0c8e-4028-a1d7-53f64657907a",
-              "type": "IMAGE",
-              "title": null,
-              "version": "f8fc12ab-a0d5-42f3-89a2-b7da1926ba02",
-              "index": 9,
-              "enableRoles": false
-            },
-            {
-              "id": "ab864bb6-f4f1-4ad7-88d8-24899867ab19",
-              "type": "IMAGE",
-              "title": null,
-              "version": "fa1f520f-ec98-427e-80bd-2ef27e1b98d2",
-              "index": 7,
-              "enableRoles": false
-            },
-            {
-              "id": "91afa6fc-7f2b-4252-8487-606a87b304e1",
-              "type": "IMAGE",
-              "title": null,
-              "version": "db328f95-56fd-42c4-969b-c34af74f623b",
-              "index": 5,
-              "enableRoles": false
-            },
-            {
-              "id": "1c9cc96c-69a7-42d8-9af3-893920f10e68",
-              "type": "IMAGE",
-              "title": null,
-              "version": "d2c9035d-059f-40e4-9e3a-d3709e8ccb0a",
-              "index": 3,
-              "enableRoles": false
-            },
-            {
-              "id": "53adf6c9-23a2-4bf8-a58b-9224dfad1e70",
-              "type": "PAGE_HEADER",
-              "title": "Staging setup",
-              "version": "4e3b3392-17e9-460e-84df-516b5f73c1e2",
-              "index": 0,
-              "enableRoles": false
-            },
-            {
-              "id": "221b0b5a-e1d8-4511-9aab-1a55fd048e57",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "c1b726ae-e60b-4a28-a049-8361287f043b",
-              "index": 10,
-              "enableRoles": false
-            },
-            {
-              "id": "b89fd874-42cf-4cdb-9013-fc204d4e9bde",
-              "type": "IMAGE",
-              "title": null,
-              "version": "26146bd1-379e-4ef3-8ab0-a0905630ff4c",
-              "index": 11,
-              "enableRoles": false
-            }
-          ]
-        },
-        {
-          "id": "b8efef78-4cd0-48ea-b853-2ae149bc0b7e",
-          "title": "Introduction",
-          "identifier": "gs_intro",
-          "enableRoles": false,
-          "version": "21c32ef5-9354-4869-861b-1410ec923a07",
-          "index": 0,
-          "sections": [
-            {
-              "id": "79c57ff5-ec20-436e-998f-a7cddbff17b3",
-              "type": "ORDERED_LIST",
-              "title": null,
-              "version": "70388b30-d9d7-4dff-b13b-67aa89d3f52e",
-              "index": 8,
-              "enableRoles": false
-            },
-            {
-              "id": "31f32f88-ae56-40b4-ade0-c03132a90003",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "68c5b3e5-f234-4439-99e9-d9ac49f2a968",
-              "index": 5,
-              "enableRoles": false
-            },
-            {
-              "id": "909debeb-b6e2-4a13-a361-8ca1f0d6d756",
-              "type": "STANDARD_HEADING",
-              "title": null,
-              "version": "bb2d024d-52dc-44cd-bee8-2bfbeb96ef74",
-              "index": 3,
-              "enableRoles": false
-            },
-            {
-              "id": "e27d9406-d853-45ab-95a8-5be805942f1e",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "e30eb5f1-d51b-4b25-85da-8a6458c9d56a",
-              "index": 2,
-              "enableRoles": false
-            },
-            {
-              "id": "9706217c-5809-482c-a391-ed2d97898c92",
-              "type": "IMAGE",
-              "title": "Headlesshost",
-              "version": "641eb1ba-713c-4c22-956c-ce837328f501",
-              "index": 9,
-              "enableRoles": false
-            },
-            {
-              "id": "f2240f3f-41a0-475a-ba49-51be5e915d8a",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "7a9c9fc7-512e-4764-902c-da8f4cb7b02d",
-              "index": 7,
-              "enableRoles": false
-            },
-            {
-              "id": "b7c74a50-4d19-48b2-8ea8-71fd834d32af",
-              "type": "ACTION_BOX",
-              "title": "Quickstart",
-              "version": "59f2a1c3-32ba-4dbb-a135-7ed6940e6aaa",
-              "index": 6,
-              "enableRoles": false
-            },
-            {
-              "id": "db81cfac-3297-49db-88b4-391ad775d664",
-              "type": "VIDEO",
-              "title": "Quickstart",
-              "version": "8df49efc-77fb-4bbf-b040-567c666334f3",
-              "index": 1,
-              "enableRoles": false
-            },
-            {
-              "id": "e3c5321b-c628-42b4-bdfb-d205d13fab02",
-              "type": "VIDEO",
-              "title": "MCP Server",
-              "version": "bfbea541-b0d2-4ff9-83f2-a21a09a73a5a",
-              "index": 4,
-              "enableRoles": false
-            },
-            {
-              "id": "305203b2-ff67-4b38-8670-758c4f345d77",
-              "type": "PAGE_HEADER",
-              "title": "Introduction",
-              "version": "7b8c0f4d-cde1-4ba3-838e-2d54433b56ba",
-              "index": 0,
-              "enableRoles": false
-            }
-          ]
-        },
-        {
-          "id": "6267e408-5b54-462f-b4a9-d593dab3ca14",
-          "title": "Add content",
-          "identifier": "hh_content",
-          "enableRoles": false,
-          "version": "43fee7d2-258d-430b-a1a0-e629a151eb31",
-          "index": 5,
-          "sections": [
-            {
-              "id": "bb9b6df9-d4fe-4c19-a38f-405038500e61",
-              "type": "IMAGE",
-              "title": null,
-              "version": "394042c6-48dd-448c-b93f-11460421e7be",
-              "index": 20,
-              "enableRoles": false
-            },
-            {
-              "id": "834c7e9a-cd7b-4d9e-917a-f26ef94c6351",
-              "type": "IMAGE",
-              "title": null,
-              "version": "001a3d43-616b-46e4-8df4-9e47ee391dc2",
-              "index": 16,
-              "enableRoles": false
-            },
-            {
-              "id": "a230fb9a-cfdd-45ba-ba6a-ae9b71d6b079",
-              "type": "IMAGE",
-              "title": null,
-              "version": "b08cd1ef-d2ed-4aac-b99e-371330862572",
-              "index": 18,
-              "enableRoles": false
-            },
-            {
-              "id": "ed20cee4-88f5-4cf0-a201-b6c79f194b96",
-              "type": "IMAGE",
-              "title": null,
-              "version": "f2cfe195-fec9-4d58-844d-888ef5127e86",
-              "index": 14,
-              "enableRoles": false
-            },
-            {
-              "id": "40bc75c5-95b0-457c-9d52-a8565cea8d10",
-              "type": "PAGE_HEADER",
-              "title": "Add content",
-              "version": "7da0bfb7-6efc-4da5-9680-a6a4bebfc819",
-              "index": 0,
-              "enableRoles": false
-            },
-            {
-              "id": "48ef3b58-76f2-4b5b-b8e2-b1da27fd0e35",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "8a5e41b9-f1e5-4064-a119-bdbcde528140",
-              "index": 21,
-              "enableRoles": false
-            },
-            {
-              "id": "2fb153b8-6829-402a-a172-8eac3b989c53",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "8dcfbb89-298d-4d37-9095-7e6cbf666ebd",
-              "index": 19,
-              "enableRoles": false
-            },
-            {
-              "id": "bc473061-f999-4550-9576-1b4729e7a0a6",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "f424595e-82e7-41c7-8a8a-1be7741ba0f5",
-              "index": 17,
-              "enableRoles": false
-            },
-            {
-              "id": "dcde5a66-9845-477e-88c9-61759f5fa4da",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "b6a80e9b-4339-4137-be4f-ad7fae28fe89",
-              "index": 15,
-              "enableRoles": false
-            },
-            {
-              "id": "b84f9961-42b7-469b-a8c8-ff8e9c7cf75b",
-              "type": "TEXT_BLOCK_WITH_HEADER",
-              "title": null,
-              "version": "88bf65f7-75f1-4d8f-9f76-5e738a5c9fb5",
-              "index": 13,
-              "enableRoles": false
-            }
-          ]
-        },
-        {
-          "id": "257ac7dd-b969-44ab-98b7-5ca045be10ad",
-          "title": "Contact",
-          "identifier": "ab_contact",
-          "enableRoles": false,
-          "version": "701201b9-9a6c-4d5e-9ff3-ab3dd23a12f7",
-          "index": 4,
-          "sections": [
-            {
-              "id": "8f0096b7-d142-43e3-8684-851bdff2454b",
-              "type": "CONTACT_FORM",
-              "title": "Let's talk",
-              "version": "46633a1b-31c2-4108-809e-fb8e6fa8a741",
-              "index": 0,
-              "enableRoles": false
-            }
-          ]
-        },
-        {
-          "id": "26d9b886-a643-4820-8990-ae70f24986d4",
-          "title": "Vercel deployment",
-          "identifier": "dp_vercel",
-          "enableRoles": false,
-          "version": "bd7292f4-e07d-4b36-a912-4bf3febc6be2",
-          "index": 3,
-          "sections": [
-            {
-              "id": "155b98bd-ae56-46d8-a769-ed23236f93d9",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "6412c1c6-909a-4548-8d8e-1f7af7b04a90",
-              "index": 17,
-              "enableRoles": false
-            },
-            {
-              "id": "b07d134e-d92c-4578-b001-e0dbf5883836",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "6faa0da9-42a3-485f-95b4-b59f87456013",
-              "index": 15,
-              "enableRoles": false
-            },
-            {
-              "id": "557f8635-fe86-4d4d-8b68-66500e2d699c",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "bf61d2c8-9248-46fb-ab99-b85fa662d486",
-              "index": 12,
-              "enableRoles": false
-            },
-            {
-              "id": "f574a986-c860-4ae6-96da-14f0b832f397",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "4f9ed048-76c9-45eb-913f-a1480949e8cb",
-              "index": 4,
-              "enableRoles": false
-            },
-            {
-              "id": "b1647517-26e1-4c00-9188-95337154decd",
-              "type": "IMAGE",
-              "title": null,
-              "version": "f859e932-aab3-4d03-a7f3-740dbcaa7acc",
-              "index": 3,
-              "enableRoles": false
-            },
-            {
-              "id": "f94b914a-262f-4b10-978f-343ed8663eb0",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "4ce1eba5-adc4-42e2-85dc-8cebda2c2e96",
-              "index": 2,
-              "enableRoles": false
-            },
-            {
-              "id": "79d199c8-d807-435e-aacf-217d6cd2fd72",
-              "type": "NAV_LINK",
-              "title": null,
-              "version": "27137a58-71c0-4e70-8bdd-47d4d7de6799",
-              "index": 1,
-              "enableRoles": false
-            },
-            {
-              "id": "666e617e-7965-4898-b038-98074baadb1e",
-              "type": "PAGE_HEADER",
-              "title": "Vercel deployment",
-              "version": "b5de20a2-8b13-4839-98b9-1606b8c020e6",
-              "index": 0,
-              "enableRoles": false
-            },
-            {
-              "id": "04753b7b-9931-4407-9ecf-826e323e904c",
-              "type": "IMAGE",
-              "title": null,
-              "version": "bb3bd204-8180-4ac3-927a-778c9572c594",
-              "index": 18,
-              "enableRoles": false
-            },
-            {
-              "id": "30ecc78d-9fef-47a8-98a9-304048a13d1f",
-              "type": "IMAGE",
-              "title": null,
-              "version": "2de541be-70ba-44b8-863d-f2bafbace5a0",
-              "index": 16,
-              "enableRoles": false
-            },
-            {
-              "id": "e493a9ed-200d-4cc3-93fa-56d27e9831c2",
-              "type": "IMAGE",
-              "title": null,
-              "version": "1cc90c72-c872-4e54-bd7f-08da54cae443",
-              "index": 14,
-              "enableRoles": false
-            },
-            {
-              "id": "fa4cf245-0d72-4927-8b1f-783f5753c156",
-              "type": "CODE_BLOCK",
-              "title": "Key",
-              "version": "03c4e807-bf93-4556-8a32-772a14f186da",
-              "index": 13,
-              "enableRoles": false
-            },
-            {
-              "id": "0b5c8d37-ff12-4133-a289-65f0feba4056",
-              "type": "ACTION_BOX",
-              "title": "Headlesshost account setup",
-              "version": "6f907d94-f188-4d84-8082-ba8722b345e8",
-              "index": 5,
-              "enableRoles": false
-            },
-            {
-              "id": "7d26d0f5-ec3d-4d8b-a2ef-b5484fb0d09b",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "a22fe027-e5fe-4a45-893b-244c336c3b8c",
-              "index": 6,
-              "enableRoles": false
-            },
-            {
-              "id": "cc08fad1-ee2f-410a-b681-df84bfb6bf6f",
-              "type": "IMAGE",
-              "title": null,
-              "version": "ced74165-c884-48d2-b79b-26349cb9c6eb",
-              "index": 9,
-              "enableRoles": false
-            },
-            {
-              "id": "794ca8ec-7af1-4ad6-bc43-1ca31724858d",
-              "type": "IMAGE",
-              "title": null,
-              "version": "4b3f59ca-11d9-4462-8f66-a0300750a87d",
-              "index": 7,
-              "enableRoles": false
-            },
-            {
-              "id": "20d3284c-e301-4d0f-b90c-9788ba796207",
-              "type": "ACTION_BOX",
-              "title": "Final configuration",
-              "version": "40ef2238-3a44-4731-b06a-e470bcd4f6f1",
-              "index": 19,
-              "enableRoles": false
-            },
-            {
-              "id": "7ad97bcd-7bdc-47a9-bee4-c08eb0bf10d5",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "1f3968a2-d10e-4859-95df-c2c473eebd27",
-              "index": 10,
-              "enableRoles": false
-            },
-            {
-              "id": "e4c94b13-4cda-4bde-b075-e6b88c98a408",
-              "type": "TEXT_BLOCK",
-              "title": null,
-              "version": "bd95671e-10cd-40b8-8aa9-c3416f318f81",
-              "index": 8,
-              "enableRoles": false
-            },
-            {
-              "id": "8de8ff61-2b4b-4b49-ba7a-4dbcd2e5f762",
-              "type": "IMAGE",
-              "title": null,
-              "version": "165ce655-2350-44af-89fd-5b4958c9b623",
-              "index": 11,
-              "enableRoles": false
-            }
-          ]
-        }
-      ]
+        { "slug": "what-is-integratewise", "title": "What Is IntegrateWise" },
+        { "slug": "the-turning-point", "title": "The Turning Point" },
+        { "slug": "continuity-maintenance", "title": "Continuity Maintenance" },
+        { "slug": "what-the-spine-is", "title": "What the Spine Is" },
+        { "slug": "what-it-connects", "title": "What It Connects" },
+        { "slug": "adaptive-by-design", "title": "Adaptive by Design" },
+        { "slug": "how-the-workspace-works", "title": "How the Workspace Works" },
+        { "slug": "the-twin", "title": "The Twin" },
+        { "slug": "connectors-overview", "title": "Connectors Overview" },
+        { "slug": "solutions-overview", "title": "Solutions Overview" },
+        { "slug": "glossary", "title": "Glossary" },
+        { "slug": "customer-zero-verification", "title": "Customer Zero Verification" },
+        { "slug": "customer-zero-runbook", "title": "Customer Zero Runbook" }
+      ],
+      "header": {},
+      "footer": {},
+      "globals": {}
     }
   },
   "guide": {
-    "id": "a7727038-c648-40c1-be7a-0af669d3e11f",
-    "name": "Style guide",
-    "notes": "Use the following guide to provide a visual reference for the available sections.",
-    "insertedAt": "2024-08-06T08:53:53.418Z",
-    "modifiedAt": "2024-08-25T20:27:36.932Z",
-    "lastModifiedBy": "Warren Cheetham",
+    "name": "Component Guide",
+    "notes": "Reference for available section components in the IntegrateWise docs.",
     "content": {
+      "sections": []
+    }
+  },
+  "authors": { "items": [] },
+  "pages": {
+    "what-is-integratewise": {
+      "id": "iw-what-is",
+      "identifier": "what-is-integratewise",
+      "title": "What Is IntegrateWise",
       "sections": [
         {
-          "id": "96cfd69a-2ee2-4c7f-a14e-a5482d9a35f1",
           "type": "PAGE_HEADER",
-          "title": "Graphic art",
+          "title": "What Is IntegrateWise",
+          "introduction": "IntegrateWise maintains organizational continuity. It connects the tools where work already happens, stores truth and context in the Adaptive Spine, and exposes them through the Knowledge Workspace and the Twin."
+        },
+        {
+          "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "created": "2024-08-30",
-            "authorSelect": "7f11b784-d43a-445b-bc57-f7af747e235d",
-            "introduction": "Fine arts and graphic arts are two distinct branches of creative expression. Fine arts encompass traditional forms such as painting, sculpture, and drawing, emphasizing creativity, aesthetics, and emotional impact. On the other hand, graphic arts involve more contemporary mediums like digital design, typography, and illustration, focusing on communicating ideas visually and often serving practical purposes in fields like advertising and web design. While fine arts are often seen as timeless reflections of culture and society, graphic arts are dynamic and responsive to technological advancements and design trends. Both fields share a fundamental goal of visual communication but utilize different techniques and platforms to achieve their artistic vision."
-          },
-          "_meta": {
-            "name": "Page header",
-            "description": "Title for the page"
+            "title": "The Origin",
+            "text": "The Spine was born on the floor of Salesforce, where Nirmal spent 13 years as a MuleSoft Integration Architect. Every day, the same ritual: open one system, check another, cross-reference a third, mentally stitch together the picture. The tools were excellent. None of them talked to each other. And someone had to bridge the gap.\n\nThat someone was the Human API. That someone built the Spine.\n\nThe Spine came first. Everything else followed."
           }
         },
         {
-          "id": "7aa207fc-45c2-43d0-8c26-b5c012318e78",
-          "type": "AUTHOR_TABLE",
-          "title": "Authors",
-          "content": {},
-          "_meta": {
-            "name": "Author table",
-            "description": "A list of authors"
-          }
-        },
-        {
-          "id": "2ff9f164-fc3a-4c56-8bb5-bfeefae08631",
-          "type": "INFO_BOX",
-          "title": "Jessica Walsh",
+          "type": "TEXT_BLOCK_WITH_HEADER",
           "content": {
-            "colour": "sky",
-            "content": "Jessica Walsh (born October 30, 1986) is an American designer, art director, illustrator and educator. She was a partner of the design studio Sagmeister & Walsh (2010\u20132019), and the founder of the creative agency &Walsh (2019\u2013present).Walsh is one of the .1% of creative agencies owned by women. She has taught at the School of Visual Arts (SVA)."
-          },
-          "_meta": {
-            "name": "Info box",
-            "description": "Alert type box"
+            "title": "What It Is",
+            "text": "IntegrateWise is the system that understands, remembers, reasons, and prepares execution — while execution happens in the customer's own environment.\n\nWe do not compete with workflow engines or automation platforms. We compete with the chaos of fragmented tools, disconnected context, and blind operational decisions.\n\nThe wedge: Every enterprise has 15+ tools. None of them talk to each other. The human operator becomes the integration layer. IntegrateWise replaces that burden with a unified intelligence layer that connects, unifies, understands, remembers, reasons, governs, prepares, and hands off."
           }
         },
         {
-          "id": "7e9df094-72a3-49e9-a815-76ab3153eedd",
-          "type": "VIDEO",
-          "title": "Headlesshost",
-          "content": {
-            "link": "https://www.youtube.com/embed/8qNRQlBjAtU?si=N9tgcHMxejaYCP3d"
-          },
-          "_meta": {
-            "name": "Video",
-            "description": "Youtube videos"
-          }
+          "type": "STANDARD_HEADING",
+          "content": { "text": "Five Customer Surfaces" }
         },
         {
-          "id": "f4a184e6-014b-4f42-874d-39cff8a264a3",
-          "type": "CODE_BLOCK",
-          "title": "Notifications",
-          "content": {
-            "code": "async function postData(url, data = {}) {\n  const response = await fetch(url, {\n    method: \"POST\",\n    mode: \"cors\",\n    cache: \"no-cache\",\n    credentials: \"same-origin\",\n    headers: {\n      \"Content-Type\": \"application/json\",\n    },\n    redirect: \"follow\",\n    referrerPolicy: \"no-referrer\",\n    body: JSON.stringify(data),\n  });\n  return response.json();\n}\n\nconst onSubmit = async (values) => {\n  const hhEndpoint = \n`https://api.headlesshost.com/sites/${import.meta.env.VITE_HH_SITE_ID}/contact`;\n  const data = {\n    purpose: \"Newsletter\",\n    source: \"Knowledgebase\",\n    ...values,\n  };\n  await postData(hhEndpoint, data);\n};",
-            "language": "javascript",
-            "showLineNumbers": true
-          },
-          "_meta": {
-            "name": "Code block",
-            "description": "Snippet of code"
-          }
-        },
-        {
-          "id": "c4f7f5ff-e1f4-4b4c-8509-10e0f1de7508",
           "type": "TEXT_BLOCK",
           "content": {
-            "content": "Mike Perry is an American artist, illustrator, animator and curator. He is known for winning a Primetime Emmy Award for animation on Comedy Central's Broad City television show. His pop culture artwork, collaborative projects and communal work are often outside the standard art gallery sensibility."
-          },
-          "_meta": {
-            "name": "Text block",
-            "description": "Just a section of text"
+            "text": "IntegrateWise exposes five customer surfaces:\n\n• L1 Workbench — Main domain-specific operational surface\n• L2 Cognitive Overlay — Always-available intelligence layer (signals, insights, context)\n• L3 Twin Workbench — Conversational reasoning and planning (proposes only)\n• L4 Memory Workbench — Knowledge substrate (search, memory, documents)\n• Approval Center — Governance surface (review, approve, dispatch — the HARD GATE)\n\nL5 (Operations) and L6 (Execution) are Customer Zero only. Customers receive a Handoff Layer instead of native execution."
           }
         },
         {
-          "id": "8a78e1ca-92d3-4d7a-8ca2-ccbed7e14ed3",
+          "type": "INFO_BOX",
+          "content": {
+            "title": "Two Modes",
+            "text": "Customer Zero Mode: Full stack (L0-L7) for internal ops and demos.\n\nExternal Customer Mode: Trimmed to 5 surfaces + Handoff (L1 Workbench, L2 Cognitive Overlay, L3 Twin Workbench, L4 Memory Workbench, Approval Center)."
+          }
+        },
+        {
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "title": "How It Works",
+            "text": "The operating loop is simple and repeatable:\n\nConnect → Contextualize → Think → Approve → Handoff → Learn\n\n1. Connect — You connect your tools. Data enters the Adaptive Spine via the Continuity Bridge (MCP primary).\n2. Contextualize — Unstructured context is linked to entities in the Spine.\n3. Think — The Twin reads the full picture and generates proposals with evidence. The Twin proposes only.\n4. Approve — You review in the Approval Center. Your decision teaches the system.\n5. Handoff — On approval, the system prepares the canonical contract and dispatches to your execution environment.\n6. Learn — Outcomes feed back into the Adaptive Spine and Digital Memory."
+          }
+        },
+        {
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "title": "Adaptive Spine",
+            "text": "The Adaptive Spine is the foundational layer of the Knowledge Workspace.\n\nIt connects source systems via the Continuity Bridge (MCP primary), extracts truth and relevant context, organizes them into one usable structure, and stores the result so the Knowledge Workspace (and the Twin) can read from one grounded view.\n\nThe Adaptive Spine is adaptive by design. It starts with a universal foundation — accounts, contacts, goals, outcomes — and extends itself based on your industry and department."
+          }
+        }
+      ]
+    },
+    "the-turning-point": {
+      "id": "iw-turning",
+      "identifier": "the-turning-point",
+      "title": "The Turning Point",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "The Turning Point",
+          "introduction": "How fragmented work led to the creation of the Adaptive Spine and Knowledge Workspace."
+        },
+        {
+          "type": "TEXT_BLOCK",
+          "content": {
+            "text": "For years, organizations have been forced to live with a fundamental mismatch: powerful specialized tools that cannot talk to each other, and humans acting as the glue.\n\nThis created the Human API problem at massive scale.\n\nIntegrateWise was built to eliminate that burden."
+          }
+        },
+        {
+          "type": "INFO_BOX",
+          "content": {
+            "title": "Key Realization",
+            "text": "The problem was never the individual tools. The problem was the missing layer that maintains continuity across them."
+          }
+        }
+      ]
+    },
+    "what-the-spine-is": {
+      "id": "iw-spine",
+      "identifier": "what-the-spine-is",
+      "title": "What the Spine Is",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "What the Spine Is",
+          "introduction": "The Adaptive Spine is foundational infrastructure that powers the Knowledge Workspace."
+        },
+        {
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "title": "Core Idea",
+            "text": "The Adaptive Spine is the single source of truth for your organization's entities, relationships, and context.\n\nIt is invisible to end users but powers every surface: the Workbench, the Cognitive Overlay, the Twin, Memory, and the Approval Center.\n\nMCP is the primary protocol boundary. The Continuity Bridge is how the Twin and external AIs reach grounded context without ever reading your tools directly."
+          }
+        }
+      ]
+    },
+    "how-the-workspace-works": {
+      "id": "iw-workspace",
+      "identifier": "how-the-workspace-works",
+      "title": "How the Workspace Works",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "How the Workspace Works",
+          "introduction": "L1 Workbench + Entity 360"
+        },
+        {
+          "type": "TEXT_BLOCK",
+          "content": {
+            "text": "The Knowledge Workspace (L1) is where operational work happens. Domain views converge on Entity 360, giving you a complete picture of every account, opportunity, ticket, or custom entity — with truth from every connected system and context from the Twin and memory."
+          }
+        }
+      ]
+    },
+    "the-twin": {
+      "id": "iw-twin",
+      "identifier": "the-twin",
+      "title": "The Twin",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "The Twin",
+          "introduction": "Bounded reasoning that proposes. You decide."
+        },
+        {
+          "type": "TEXT_BLOCK",
+          "content": {
+            "text": "The Twin reads exclusively through the Continuity Bridge over prepared context from the Adaptive Spine and Digital Memory. It never has direct access to your tools.\n\nIt generates proposals, evidence, and plans. Approval always happens in the Approval Center (HARD GATE)."
+          }
+        },
+        {
+          "type": "INFO_BOX",
+          "content": {
+            "title": "Twin Rule",
+            "text": "Twin proposes only. Humans (or governed processes) approve and act."
+          }
+        }
+      ]
+    },
+    "connectors-overview": {
+      "id": "iw-connectors",
+      "identifier": "connectors-overview",
+      "title": "Connectors Overview",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "Connectors Overview",
+          "introduction": "Connectors are how your tools feed the Adaptive Spine via the Continuity Bridge (MCP primary)."
+        },
+        {
+          "type": "TEXT_BLOCK",
+          "content": {
+            "text": "Every input to the Knowledge Workspace enters through a connector. The Spine doesn't care where data comes from — it cares about what it means and how it relates to your entities."
+          }
+        }
+      ]
+    },
+    "solutions-overview": {
+      "id": "iw-solutions",
+      "identifier": "solutions-overview",
+      "title": "Solutions Overview",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "Solutions Overview",
+          "introduction": "Role-specific expressions of the same Knowledge Workspace."
+        },
+        {
+          "type": "TEXT_BLOCK",
+          "content": {
+            "text": "Solutions for Account Success, Sales Ops, Business Ops, Finance Ops, and Personal Ops all run on the shared Adaptive Spine, Continuity Bridge, and surfaces. Only the lens and primary workflows change."
+          }
+        }
+      ]
+    },
+    "glossary": {
+      "id": "iw-glossary",
+      "identifier": "glossary",
+      "title": "Glossary",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "Glossary",
+          "introduction": "Key terms in the IntegrateWise system."
+        },
+        {
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "title": "Adaptive Spine",
+            "text": "The foundational layer that unifies truth and context from all connected tools."
+          }
+        },
+        {
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "title": "Continuity Bridge (MCP primary)",
+            "text": "The protocol boundary through which the Twin and external AIs access context. No direct tool reads."
+          }
+        },
+        {
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "title": "Handoff Layer",
+            "text": "The mechanism that prepares the canonical contract and delivers approved work to the customer's own execution environment."
+          }
+        },
+        {
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "title": "HARD GATE",
+            "text": "The Approval Center (L7). No handoff package can be generated without an approval token."
+          }
+        }
+      ]
+    },
+    "customer-zero-verification": {
+      "id": "iw-cz-verify",
+      "identifier": "customer-zero-verification",
+      "title": "Customer Zero Verification",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "Customer Zero Verification Panel",
+          "introduction": "Observable proof that the system assembles correctly."
+        },
+        {
+          "type": "TEXT_BLOCK",
+          "content": {
+            "text": "Each verification box maps to a concrete stage:\n\nIdentity → tenant_spine_config (schema_version = v2)\nConnectors → connected_connectors (>0)\nHydration → creamy jobs (completed)\nSpine → *_data partitions (>0 rows)\nMemory → org_memory (>0)\nContinuity → assembler (memories returned)\nTwin → activation gate (activated = true)"
+          }
+        }
+      ]
+    },
+    "customer-zero-runbook": {
+      "id": "iw-cz-runbook",
+      "identifier": "customer-zero-runbook",
+      "title": "Customer Zero Runbook",
+      "sections": [
+        {
+          "type": "PAGE_HEADER",
+          "title": "Customer Zero Runbook",
+          "introduction": "11-step operational playbook for onboarding and validation."
+        },
+        {
           "type": "ORDERED_LIST",
           "content": {
             "items": [
-              "Art Nouveau",
-              "American Kitsch",
-              "Minimalist and Flat",
-              "Psychedelic",
-              "Swiss/International",
-              "Grunge"
+              "Create tenant",
+              "Complete profile",
+              "Verify Identity box turns green",
+              "Connect first connector (e.g. GitHub or HubSpot)",
+              "Trigger hydration / initial sync",
+              "Confirm Spine data partitions have rows",
+              "Promote first memories to org_memory",
+              "Verify Continuity assembler returns context",
+              "Activate Twin and confirm proposals appear",
+              "Perform end-to-end approval + handoff test",
+              "Capture full green panel + evidence"
             ]
-          },
-          "_meta": {
-            "name": "Ordered list",
-            "description": "Numbered list of items"
           }
         },
         {
-          "id": "653fa362-d302-4781-92c0-1dca672e14a0",
-          "type": "TEXT_BLOCK_WITH_HEADER",
+          "type": "INFO_BOX",
           "content": {
-            "content": " A great designer is not just someone who is skilled and versatile on the tools. Great designers are also exceptionally rigorous researchers. We would argue that the ability to research and continually invest time in expanding your knowledge of graphic design styles, both contemporary and historical, is a key ingredient to being an exceptional designer. This is true whether you plan to work in-house or focus on freelance client work. Every designer must cultivate a rich personal library of references to work from, because these become the ingredients of your own design process.",
-            "heading": {
-              "title": "Why is knowing graphic design styles important?",
-              "headingType": "h2"
-            }
-          },
-          "_meta": {
-            "name": "Text block with header",
-            "description": "Heading followed by text"
+            "title": "Note",
+            "text": "See the full runbook in the original VitePress reference for timings and failure signatures."
           }
-        },
-        {
-          "id": "a613f130-eabe-4aa5-be0a-66c40ceff4b6",
-          "type": "ACTION_BOX",
-          "title": "Damien Hirst",
-          "content": {
-            "link": {
-              "slug": "https://en.wikipedia.org/wiki/Damien_Hirst",
-              "title": "Wikipedia",
-              "target": "_blank"
-            },
-            "content": "Damien Steven Hirst is an English artist and art collector. He is one of the Young British Artists (YBAs) who dominated the art scene in the UK during the 1990s. He is reportedly the United Kingdom's richest living artist, with his wealth estimated at US$384 million in the 2020 Sunday Times Rich List. During the 1990s his career was closely linked with the collector Charles Saatchi, but increasing frictions came to a head in 2003 and the relationship ended."
-          },
-          "_meta": {
-            "name": "Action box",
-            "description": "Dark blue information box "
-          }
-        },
-        {
-          "id": "d77e1c2b-5028-414d-8c44-68cb34e18920",
-          "type": "NAV_LINK",
-          "content": {
-            "link": {
-              "slug": "https://headlesshost.com",
-              "title": "Headlesshost",
-              "target": "_blank"
-            }
-          },
-          "_meta": {
-            "name": "Nav Link",
-            "description": "Standard hyperlink"
-          }
-        },
-        {
-          "id": "28394509-3343-44c9-89a4-6f6f196f96cb",
-          "type": "IMAGE",
-          "title": "Mike Perry",
-          "content": {
-            "image": {
-              "id": "a7822b27-9b5f-43a3-b5c1-e79feee19e77.jpg",
-              "cid": "1112d0bd-9354-4ea1-99ed-b6a8f100a1d6",
-              "size": 753943,
-              "width": 768,
-              "height": 512,
-              "mimetype": "image/jpeg",
-              "url": "https://assets.headlesshost.com/sites/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/b08ca852-7166-475c-a3d5-157cdcd74209/a7822b27-9b5f-43a3-b5c1-e79feee19e77.jpg"
-            }
-          },
-          "_meta": {
-            "name": "Image",
-            "description": "Just an image"
-          }
-        },
-        {
-          "id": "e108c141-bbad-48c4-8f13-feed4295d244",
-          "type": "CONTACT_FORM",
-          "title": "Contact form",
-          "content": {
-            "introduction": "A little intro to the form"
-          },
-          "_meta": {
-            "name": "Contact form",
-            "description": "Placeholder for the contact form"
-          }
-        },
-        {
-          "id": "54ae3025-46fd-4474-a94c-96336c68cf34",
-          "type": "STANDARD_HEADING",
-          "content": {
-            "heading": {
-              "title": "Just a heading",
-              "headingType": "h3"
-            }
-          },
-          "_meta": {
-            "name": "Standard heading",
-            "description": "Simple heading"
-          }
-        }
-      ]
-    }
-  },
-  "authors": {
-    "result": [
-      {
-        "id": "e28b5a89-f748-438f-b4d9-a9f8fcdd0eac",
-        "cid": "9005d547-c916-4c5f-99ca-c64883b09407",
-        "type": "AUTHORS",
-        "insertedAt": "2025-09-30T20:18:13.329Z",
-        "modifiedAt": "2025-09-30T20:18:13.329Z",
-        "version": "70a77fcd-7048-470c-a395-85c87dbae2d4",
-        "lastModifiedBy": "Warren Cheetham",
-        "content": {
-          "name": "Mike Perry",
-          "role": "Graphics artist",
-          "email": "mike@example.com",
-          "image": {
-            "id": "d931a707-eb7e-4f3d-854f-fcf657c2508c.jpg",
-            "cid": "9fcb976d-3a1b-442c-b0d5-a034e52d63d9",
-            "size": 296446,
-            "width": 568,
-            "height": 568,
-            "mimetype": "image/jpeg",
-            "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/d931a707-eb7e-4f3d-854f-fcf657c2508c.jpg"
-          },
-          "phone": "555 345 566"
-        },
-        "index": 0
-      },
-      {
-        "id": "63dcf1ce-bc5b-4494-ad91-2ba46f70ef3e",
-        "cid": "7f11b784-d43a-445b-bc57-f7af747e235d",
-        "type": "AUTHORS",
-        "insertedAt": "2025-09-30T20:18:13.329Z",
-        "modifiedAt": "2025-09-30T20:18:13.329Z",
-        "version": "211e81d8-dac3-4786-bdbf-8ccfa9bcef14",
-        "lastModifiedBy": "Warren Cheetham",
-        "content": {
-          "name": "Njideka Akunyili Crosby",
-          "role": "Fine artist",
-          "email": "crosby@example.com",
-          "image": {
-            "id": "24daabad-97e8-4d03-abbd-145b24838d45.jpg",
-            "cid": "cb790b74-96a7-4328-9390-3e9cb58979f7",
-            "size": 3814,
-            "width": 40,
-            "height": 40,
-            "mimetype": "image/jpeg",
-            "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/24daabad-97e8-4d03-abbd-145b24838d45.jpg"
-          },
-          "phone": "555 583 876"
-        },
-        "index": 0
-      },
-      {
-        "id": "f41dd649-3552-4d6d-9474-65ec393b680d",
-        "cid": "c3451fcc-afe1-4e53-8a0a-e1d8fac84d3f",
-        "type": "AUTHORS",
-        "insertedAt": "2025-09-30T20:18:13.329Z",
-        "modifiedAt": "2025-09-30T20:18:13.329Z",
-        "version": "9daebe7d-3387-49c6-bff0-e66aca3b51ce",
-        "lastModifiedBy": "Warren Cheetham",
-        "content": {
-          "name": "Damien Hirst",
-          "role": "Fine artist",
-          "email": "damien@example.com",
-          "image": {
-            "id": "ca5886c5-9cf6-418a-b7b3-b7663adc20ba.jpg",
-            "cid": "4d3b136e-b552-4794-9a9b-9596f7475f1e",
-            "size": 4095,
-            "width": 40,
-            "height": 40,
-            "mimetype": "image/jpeg",
-            "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/ca5886c5-9cf6-418a-b7b3-b7663adc20ba.jpg"
-          },
-          "phone": "555 864 738"
-        },
-        "index": 0
-      },
-      {
-        "id": "948d18ea-b017-4cc7-bc9f-eacdacba4615",
-        "cid": "06d270b6-8c8a-4c4b-9f1a-8612341de7f3",
-        "type": "AUTHORS",
-        "insertedAt": "2025-09-30T20:18:13.329Z",
-        "modifiedAt": "2025-09-30T20:18:13.329Z",
-        "version": "e515fd38-1d57-40ff-b656-f550ed2924af",
-        "lastModifiedBy": "Warren Cheetham",
-        "content": {
-          "name": "Jessica Walsh",
-          "role": "Graphics artist",
-          "email": "jessica@example.com",
-          "image": {
-            "id": "87b3adc5-6ac4-4265-93fa-e9bba0d8f6f5.jpg",
-            "cid": "5993d68a-226f-4e79-9964-55e46ce7fa06",
-            "size": 4137,
-            "width": 40,
-            "height": 40,
-            "mimetype": "image/jpeg",
-            "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/87b3adc5-6ac4-4265-93fa-e9bba0d8f6f5.jpg"
-          },
-          "phone": "555 567 568"
-        },
-        "index": 0
-      }
-    ],
-    "total": 4,
-    "page": 1,
-    "pageSize": 200
-  },
-  "pages": {
-    "hh_sections": {
-      "id": "365030c7-3f5b-48fb-889f-3b84c35f5b11",
-      "identifier": "hh_sections",
-      "version": "8613b048-3349-4f18-a1b3-8f816b97f9da",
-      "title": "Create sections",
-      "content": {
-        "tags": [
-          {
-            "label": "Headlesshost",
-            "value": "Headlesshost"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "PAGE_HEADER",
-            "title": "Sections",
-            "created": "2024-08-28",
-            "authorSelect": "06d270b6-8c8a-4c4b-9f1a-8612341de7f3",
-            "introduction": "One of the most common tasks is to create new sections. In this example I'm going to create a \"Gallery Opening\" component to capture the details including title, description, images and a list of opening times."
-          },
-          "id": "0bec63b2-599f-44b5-b227-d9986e66a8af",
-          "version": "f3b9825e-47af-4278-a70c-0c295a7a5861",
-          "type": "PAGE_HEADER"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "44645f73-e6cc-4f5e-8aca-c22bad398f9e.png",
-              "cid": "554ae57c-72a2-49d7-8082-27967a3ae6b8",
-              "size": 93469,
-              "width": 768,
-              "height": 539,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/44645f73-e6cc-4f5e-8aca-c22bad398f9e.png"
-            }
-          },
-          "id": "6043f218-62d3-413d-91b3-cd2eaaf08edb",
-          "version": "2e154b05-a396-456c-b8c6-2c8e1273f0ad",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Now we have our wireframe design we can construct the content types in Headlesshost. Navigate to the staging site you are working on and select the \"Types\" option from the left hand menu. ",
-            "heading": {
-              "title": "Create content types",
-              "headingType": "h2"
-            }
-          },
-          "id": "fe7e44cd-39a5-48fb-8c61-6716547f4291",
-          "version": "88708601-f9da-4d07-9b0a-26609a68412e",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "The opening times list will have a day of the week and hours open field. We will use a select component for the day of the week and a simple text field for the hours.",
-            "heading": {
-              "title": "Custom type",
-              "headingType": "h3"
-            }
-          },
-          "id": "6160be6f-e139-4a44-8bc9-dade2ab4e60c",
-          "version": "846a6759-2707-40f5-92de-825ac25e578f",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "959321a2-e2cb-4603-b8a9-459c5ba2c835.png",
-              "cid": "efc93a36-7719-482d-8164-eaa71921ed25",
-              "size": 45323,
-              "width": 768,
-              "height": 567,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/959321a2-e2cb-4603-b8a9-459c5ba2c835.png"
-            },
-            "publish": false
-          },
-          "id": "801692e7-1d6d-4fec-8d11-78ec52baa176",
-          "version": "8eafe13e-812f-4e33-a5f9-22f7951c4a44",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Enter the days of the week as a static list in the select field.",
-            "publish": false
-          },
-          "id": "060d47df-fd7d-4838-9607-ba30d3ba38f9",
-          "version": "73ec6321-2ee8-4152-a897-2c49aea072c7",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "ae486ace-d788-43be-ba2e-320826b64936.png",
-              "cid": "dbfd88c9-2d37-4312-a741-b290c18b13a6",
-              "size": 91420,
-              "width": 587,
-              "height": 900,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/ae486ace-d788-43be-ba2e-320826b64936.png"
-            },
-            "publish": false
-          },
-          "id": "52153bd1-e4ff-44e0-9d34-c5da23976af6",
-          "version": "2aca74b3-ab96-4dc7-89a7-f1628b91bad0",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Now we have all the types required, we can define the section. We can re-use the custom heading type used in other sections and add two image and one long text type.  Finally we can add our opening times type and check the option for it to be a list.",
-            "heading": {
-              "title": "Section creation",
-              "headingType": "h3"
-            }
-          },
-          "id": "7bacdab2-62d9-4e03-8674-1190911bdeab",
-          "version": "c8734f2e-d71e-4d06-9352-98554c21ce44",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "eb1c0fe4-e710-43e5-8b68-3d30c006db52.png",
-              "cid": "9f1a356e-12b8-48b3-95e4-c9588675b698",
-              "size": 67570,
-              "width": 662,
-              "height": 900,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/eb1c0fe4-e710-43e5-8b68-3d30c006db52.png"
-            },
-            "publish": false
-          },
-          "id": "076fa3b1-8c2c-42d0-a0c5-beaf3ea55100",
-          "version": "1329a19b-3268-4421-a2bf-573305807b12",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "d193e5ee-8e5f-45d6-8f60-d4051b2f4cc5.png",
-              "cid": "47908625-660c-4c3c-b0b0-4990657ee06c",
-              "size": 38892,
-              "width": 768,
-              "height": 522,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/d193e5ee-8e5f-45d6-8f60-d4051b2f4cc5.png"
-            },
-            "publish": false
-          },
-          "id": "d6e82c8b-8738-490a-b5b6-cf63f42d7522",
-          "version": "4e262eb7-8339-48a2-ac38-4f5e3deb2ae2",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "For the images, we want the size to be exactly 250px square, so set the aspect ratio to 1 and min/max width to 250px"
-          },
-          "id": "cfa89fac-8d7b-4569-a092-088dbc44c1d1",
-          "version": "21d62c97-5fac-4d15-a34b-78ff0913220b",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "2c95d372-73d1-4a67-b391-9bb6c5d4e1a7.png",
-              "cid": "96db680c-fd84-4119-a204-d0b120d12982",
-              "size": 59900,
-              "width": 768,
-              "height": 693,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/2c95d372-73d1-4a67-b391-9bb6c5d4e1a7.png"
-            }
-          },
-          "id": "73f019f3-49e6-4cba-9f08-61faa27f9270",
-          "version": "2501f265-2c84-43db-98d5-7fb8de63c2fd",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Now we have our type setup in Headlesshost it's time to add the code to our Next.js application.",
-            "heading": {
-              "title": "Code setup",
-              "headingType": "h2"
-            },
-            "publish": false
-          },
-          "id": "c48b949c-5f94-4d8d-9285-c4ffdf0cd08d",
-          "version": "7701599a-6369-4a69-8b82-1b37ce2ac42f",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Create a new file called galleryOpening.tsx in the components/sections folder and add the following code.",
-            "heading": {
-              "title": "Section code",
-              "headingType": "h3"
-            }
-          },
-          "id": "32741fea-d01b-4878-8fad-baf97196f723",
-          "version": "33aec4e9-04ac-4dc2-a9f1-81e1b83830b2",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "code": "import React from \"react\";\nimport { Heading, ImageDetails, Section } from \"@/app/lib/types\";\nimport StandardHeading from \"./standardHeading\";\nimport Image from \"next/image\";\n\ninterface OpeningHour {\n  day: string;\n  hours: string;\n}\n\ninterface GalleryOpeningSection extends Section {\n  heading: Heading;\n  openingHours: OpeningHour[];\n  description: string;\n  imageTop: ImageDetails;\n  imageBottom: ImageDetails;\n}\n\ninterface GalleryOpeningProps {\n  section: GalleryOpeningSection;\n}\n\nconst GalleryOpening: React.FC<GalleryOpeningProps> = ({ section }) => {\n  return (\n    <div className=\"flex\">\n      <div className=\"pe-2\">\n        <StandardHeading section={section} />\n        <div className=\"text-md text-slate-600 whitespace-pre-wrap mb-4\">{section.description}</div>\n        <div className=\"font-bold font-xl mb-4\">Opening Hours</div>\n        {section.openingHours.map((openingHour, index) => (\n          <div key={index} className=\"mb-4\">\n            <div className=\"font-bold\">{openingHour.day}</div>\n            <div>{openingHour.hours}</div>\n          </div>\n        ))}\n      </div>\n      <div className=\"min-w-[250px]\">\n        {section.imageTop && <Image src={section.imageTop.url} alt={section.imageTop.alt} width={section.imageTop.width} height={section.imageTop.height} className=\"rounded-t-md\" />}\n        {section.imageBottom && <Image src={section.imageBottom.url} alt={section.imageBottom.alt} width={section.imageBottom.width} height={section.imageBottom.height} className=\"rounded-b-md\" />}\n      </div>\n    </div>\n  );\n};\n\nexport default GalleryOpening;\n",
-            "type": "CODE_BLOCK",
-            "title": "Gallery Opening Code",
-            "publish": false,
-            "language": "javascript",
-            "showLineNumbers": true
-          },
-          "id": "273203fe-d325-47c8-9ee2-4a755640d7f1",
-          "version": "a4a33d40-e67d-4293-8813-2718f07fa755",
-          "type": "CODE_BLOCK"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Modify the section.tsx file inside the components folder. ",
-            "heading": {
-              "title": "Modify section.tsx",
-              "headingType": "h3"
-            },
-            "publish": false
-          },
-          "id": "4e3cd871-a132-4f48-b99e-89819a03774e",
-          "version": "46816c74-725a-41ed-b99f-8e026c5174b2",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "code": "import GalleryOpening from \"./sections/galleryOpening\";\n\nGALLERY_OPENING: GalleryOpening",
-            "type": "CODE_BLOCK",
-            "title": "Section",
-            "publish": false,
-            "language": "javascript",
-            "showLineNumbers": true
-          },
-          "id": "7143c82e-535c-42b7-8116-836e01b2f239",
-          "version": "6064a87a-b766-4681-b549-88d93fc3ea8e",
-          "type": "CODE_BLOCK"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Complete file",
-            "publish": false
-          },
-          "id": "5d586989-4534-49b0-82a1-c27a253cb027",
-          "version": "a83612c6-98ad-4e93-a716-30469d0f2abc",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "code": "import React from \"react\";\nimport TextBlockWithHeader from \"./sections/textBlockWithHeader\";\nimport InfoBox from \"./sections/infoBox\";\nimport CodeDisplay from \"./sections/codeDisplay\";\nimport ActionBox from \"./sections/actionBox\";\nimport NavLink from \"./sections/navLink\";\nimport CmsImage from \"./sections/cmsImage\";\nimport Video from \"./sections/video\";\nimport PageHeader from \"./sections/pageHeader\";\nimport TextBlock from \"./sections/textBlock\";\nimport OrderedList from \"./sections/orderedList\";\nimport AuthorTable from \"./sections/authorTable\";\nimport StandardHeading from \"./sections/standardHeading\";\nimport ContactForm from \"./sections/contactForm\";\nimport GalleryOpening from \"./sections/galleryOpening\";\n\ninterface SectionProps {\n  section: any;\n  instanceId: string;\n}\n\nconst sections: { [key: string]: React.FC<any> } = {\n  PAGE_HEADER: PageHeader,\n  CODE_BLOCK: CodeDisplay,\n  TEXT_BLOCK_WITH_HEADER: TextBlockWithHeader,\n  TEXT_BLOCK: TextBlock,\n  INFO_BOX: InfoBox,\n  ACTION_BOX: ActionBox,\n  NAV_LINK: NavLink,\n  IMAGE: CmsImage,\n  VIDEO: Video,\n  ORDERED_LIST: OrderedList,\n  AUTHOR_TABLE: AuthorTable,\n  STANDARD_HEADING: StandardHeading,\n  CONTACT_FORM: ContactForm,\n  GALLERY_OPENING: GalleryOpening,\n};\n\nconst Section: React.FC<SectionProps> = ({ section, instanceId }) => {\n  const SectionComponent = sections[section.type];\n\n  if (!SectionComponent) {\n    return null;\n  }\n\n  return <SectionComponent section={section} instanceId={instanceId} siteId={process.env.HEADLESSHOST_SITEID} />;\n};\n\nexport default Section;\n",
-            "type": "CODE_BLOCK",
-            "title": "Section",
-            "publish": false,
-            "language": "javascript"
-          },
-          "id": "818a706b-0583-4aca-86a2-3ed8e90bbabc",
-          "version": "dbfd45d7-28df-462e-9094-5b221a58117e",
-          "type": "CODE_BLOCK"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "With the code added you should now be able to test the section. Click \"Insert new section\" on any page and select the new Gallery Opening section.",
-            "heading": {
-              "title": "Test the section",
-              "headingType": "h2"
-            }
-          },
-          "id": "dcc1c6f6-b8e5-44ef-a89a-d8dd81d104cb",
-          "version": "cd9c6016-c0c2-4cf6-b774-22d74aab194a",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "ca5ee729-0c79-4b07-a41f-d251db6a1284.png",
-              "cid": "25ce463d-4c7e-4705-822a-d92ac5b68780",
-              "size": 83793,
-              "width": 768,
-              "height": 475,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/ca5ee729-0c79-4b07-a41f-d251db6a1284.png"
-            },
-            "publish": false
-          },
-          "id": "b3266738-3416-48e0-bc68-fd643988ed92",
-          "version": "500dce9d-abfa-4aa0-8841-01c06cfae54a",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Complete the form and save your changes.",
-            "publish": false
-          },
-          "id": "22f3ef64-90e6-45b2-a6af-8cccc9248cf3",
-          "version": "4beb22ce-41a5-4755-b6f3-58b9a2c0a8d3",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "703a9531-3664-4360-8ac4-31d27ee756a4.png",
-              "cid": "04857346-47ff-4f7b-9d44-1feee136e817",
-              "size": 234600,
-              "width": 750,
-              "height": 900,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/703a9531-3664-4360-8ac4-31d27ee756a4.png"
-            },
-            "publish": false
-          },
-          "id": "ed54ce60-a0e8-4664-b82f-5ff1d678433a",
-          "version": "ac44ff49-a88e-4ed1-9352-e25c348d7ad5",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Your staging site should hot reload with your new design.",
-            "publish": false
-          },
-          "id": "6f7e9660-c027-4e98-bfa7-98d80a647d67",
-          "version": "5ae8f49b-1b32-4dd1-9299-4a1dbeb32791",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "49db1ac0-afcd-4704-ad1d-e2a8d64910e4.png",
-              "cid": "1c17d09a-6ed6-4a8f-a427-87870de1e25f",
-              "size": 421467,
-              "width": 768,
-              "height": 519,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/49db1ac0-afcd-4704-ad1d-e2a8d64910e4.png"
-            },
-            "publish": false
-          },
-          "id": "e6ef3c41-6b39-4908-a90c-4d07e4a26aac",
-          "version": "8577fa54-bc19-45ea-b146-5f1285708bea",
-          "type": "IMAGE"
-        }
-      ]
-    },
-    "gs_components": {
-      "id": "cc1965f8-1a2c-4b6c-be6c-e16f0a44b0e8",
-      "identifier": "gs_components",
-      "version": "ac8644f6-42ed-4fd8-98c4-e829512b97d9",
-      "title": "Components",
-      "content": {
-        "tags": [
-          {
-            "label": "Getting Started",
-            "value": "Getting Started"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "PAGE_HEADER",
-            "title": "Components",
-            "created": "2024-08-21",
-            "authorSelect": "9005d547-c916-4c5f-99ca-c64883b09407",
-            "introduction": "Below are just some of the components available in this sample. Of course, more components (sections) are simple to construct and a guide to creating sections can be found on the sections page."
-          },
-          "id": "daa5ccce-f3d3-41e9-b470-46d2a18ce35e",
-          "version": "ea31c369-9a38-4874-8fbd-eca8d15bf354",
-          "type": "PAGE_HEADER"
-        },
-        {
-          "content": {
-            "type": "AUTHOR_TABLE",
-            "title": "All the authors"
-          },
-          "id": "09c378c5-a46d-4759-95c8-10903d5e8a81",
-          "version": "93172ca6-f625-4e8c-8f04-5c092fb0078d",
-          "type": "AUTHOR_TABLE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "The video component uses the share URL. To find the share URL click on the share button below the video, then click the embed button. The share URL will be in the embed URL code.",
-            "heading": {
-              "title": "Video",
-              "headingType": "h3"
-            }
-          },
-          "id": "2b97ac17-9396-487a-9569-e32db8ac9896",
-          "version": "4bfc9e68-b93d-4ba3-81c3-3a90b1adbcee",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "ca5674a0-cce2-462a-a346-d8ebf4fee8d0.png",
-              "cid": "d5a86683-88bc-4788-8172-3fa1940a02ee",
-              "size": 228252,
-              "width": 768,
-              "height": 432,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/ca5674a0-cce2-462a-a346-d8ebf4fee8d0.png"
-            },
-            "publish": false
-          },
-          "id": "10ad8dc3-7bf7-4560-a997-8dfc1e04d145",
-          "version": "4084c7b9-d96c-47fe-9dc1-c06eca788d46",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "MIKE PERRY is a Brooklyn-based, multi-dimensional artist. You may know his work on Broad City, which would garner him his first  Emmy, for Motion Design. Or, you may know us from his formidable performative relationships with Herm\u00e8s, mural landscapes with  Jameson, rambunctious joints with the likes of Jimmy Fallon, or multi-media experiences with industry leading powerhouses such as Dolby. From beer to clocks to children books, he\u2019s been highlighting the world you live in for over a decade with bright neon, hard-cut curiosities, and images that forever encourage exploration. Whether it\u2019s the take over of Madison Avenue with Herm\u00e9s for a one night only musical, or doodling for Playboy magazine, he makes with an inquisitive imagination and versatility.  \n\nMike make paintings, patterns, animation, sculptures, portraits, books, public art installations, monographs, exhibitions, drawings, silkscreens, and everything else that falls within the dreamscape. He is a topographers of the ever-curious journey and making art for everyone has long been his motto, spreading the love for creativity and the influence of positive thought, as he believes in the transformative power of making things. He continues to invite you into the abstract, into the very much unknowable future with eyes open to wonder and hearts full of boundless opportunities, still working without limits. ",
-            "heading": {
-              "title": "Mike Perry",
-              "headingType": "h2"
-            }
-          },
-          "id": "7de8fd59-8ad9-48c8-9f59-c955cc6ff5f0",
-          "version": "8b81561c-e529-4f27-9d19-c122988a2cae",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "7a1fd144-4cd5-44a5-94fc-a107a472d356.jpg",
-              "cid": "44115a46-d3f6-40fa-8688-e28e79fe2ed9",
-              "size": 677201,
-              "width": 768,
-              "height": 512,
-              "mimetype": "image/jpeg",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/7a1fd144-4cd5-44a5-94fc-a107a472d356.jpg"
-            },
-            "title": "Mike Perry",
-            "publish": false
-          },
-          "id": "b0cc7bbd-e264-4710-8720-8ab078a1ee74",
-          "version": "cb448d8d-0e44-4612-af09-d92653ce559d",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Jessica Walsh is one of the most iconic graphic designers of the modern age. As the founder and creative director of world-renowned design agency, &Walsh, she\u2019s had a significant impact on the evolution of visual trends and the graphic design industry. Her designs and illustrations have been featured everywhere, from The New York Times and New York Times Magazine to major celebrity and brand campaigns.\n\nWhen Jessica started coding and designing websites at just 11 years old, she soon realized it was more than a hobby\u2014she wanted to dedicate her life to art and design. After earning a Bachelor of Fine Arts from Rhode Island School of Design in 2008, she moved to New York City, where she turned down a job at Apple to intern under fellow iconic female designer, Paula Scher. She then went on to co-found the prestigious New York design studio Sagmeister & Walsh, where she worked with big-name brands, including Levi\u2019s, Aizone, and Adobe. ",
-            "heading": {
-              "title": "Jessica Walsh",
-              "headingType": "h2"
-            },
-            "publish": false
-          },
-          "id": "8e52601d-2e39-4e7f-8c1c-d2a9a836aae4",
-          "version": "bd50666e-15a5-4d86-bb71-82ca115b1570",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "gs_intro",
-              "title": "Home",
-              "target": "_self"
-            },
-            "type": "ACTION_BOX",
-            "title": "Action box",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam"
-          },
-          "id": "4eb8cbf7-5713-4e8a-bbc1-2d0857e621ec",
-          "version": "cd08243d-fa7e-47ad-818a-89a0c0b85f8c",
-          "type": "ACTION_BOX"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "38d1f954-ef4a-4582-9495-f28b8490a22b.jpg",
-              "cid": "65fa91c9-5460-42f3-882d-0f1e384fd5af",
-              "size": 346662,
-              "width": 768,
-              "height": 520,
-              "mimetype": "image/jpeg",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/38d1f954-ef4a-4582-9495-f28b8490a22b.jpg"
-            },
-            "title": "Jessica",
-            "publish": false
-          },
-          "id": "2a0d084b-28cd-4244-a725-18f72914eeb9",
-          "version": "a5f5577e-39a1-47e4-aad7-d24b9200165b",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Since emerging onto the international art scene in the late 1980s, Damien Hirst has created installations, sculptures, paintings, and drawings that examine the complex relationships between art and beauty, religion and science, and life and death. From serialized paintings of multicolored spots to animal specimens preserved in tanks of formaldehyde, his work challenges contemporary belief systems, tracing the uncertainties that lie at the heart of human experience.\n\nIn 1988, while studying at Goldsmiths College in London, Hirst curated Freeze, a rolling exhibition in three parts, featuring his work and that of fellow students. This show is considered the debut of the artists who would come to be known as the Young British Artists, or YBAs, whose approach was characterized by a combination of entrepreneurial and oppositional attitudes, the use of found materials, and an interest in shock and spectacle. In the final iteration of Freeze, Hirst included two of his Spot paintings, which he painted directly onto the wall. The Spot paintings (1986\u2013), of which there are now more than one thousand, present multicolored spots on white or near-white grounds and are painted by hand in glossy house paint. With these works, Hirst sought to paint as a machine yet allow for the subtle imperfections of the artist\u2019s hand. In 2012 Gagosian showed more than three hundred Spot paintings at once across all eleven of the gallery\u2019s locations.",
-            "heading": {
-              "title": "Damien Hirst",
-              "headingType": "h2"
-            },
-            "publish": false
-          },
-          "id": "7142d2df-bb8c-4aca-87f9-4d3f2bbd889f",
-          "version": "34d59864-7aa7-4f2f-a08c-d5586588bd40",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "STANDARD_HEADING",
-            "heading": {
-              "title": "Code block",
-              "headingType": "h3"
-            }
-          },
-          "id": "cb9b8db6-be54-4750-95b9-2f03283896e9",
-          "version": "7a24b2c1-052e-4e81-869b-5bc0d9c85461",
-          "type": "STANDARD_HEADING"
-        },
-        {
-          "content": {
-            "code": "import Link from \"next/link\";\nimport { NavigationLink, Section } from \"@/app/lib/types\";\n\ninterface ActionBoxSection extends Section {\n  link: NavigationLink;\n}\n\ninterface ActionBoxProps {\n  section: ActionBoxSection;\n}\n\nconst ActionBox: React.FC<ActionBoxProps> = ({ section }) => {\n  const { link, title, content } = section;\n  const linkLabel = link?.title;\n\n  return (\n    <div className=\"mb-12\">\n      <div className=\"md:col-span-2 relative rounded-xl p-8 shadow-xl shadow-slate-200 \n          bg-sky-950 group overflow-hidden\" id={section.id}>\n        <div className=\"relative\">\n          <h2 className=\"font-display font-bold text-2xl text-white mt-2\">{title}</h2>\n          <p className=\"mt-3 text-base text-slate-100 leading-relaxed max-w-2xl \n            whitespace-pre-wrap\">{content}</p>\n          {linkLabel && (\n            <Link href={link.slug} target={link.target}>\n              <div className=\"inline-block mt-6 rounded-md bg-sky-500 px-3.5 py-2 text-sm \n                font-semibold font-display text-white group-hover:bg-sky-600\">{linkLabel}</div>\n            </Link>\n          )}\n        </div>\n      </div>\n    </div>\n  );\n};\n\nexport default ActionBox;\n",
-            "type": "CODE_BLOCK",
-            "title": "Code block",
-            "language": "javascript",
-            "showLineNumbers": false
-          },
-          "id": "899a80a6-8ee0-4f5c-950e-cbe162ef51fe",
-          "version": "7439aae8-c89f-4e69-b448-ecd047cc3e7f",
-          "type": "CODE_BLOCK"
-        },
-        {
-          "content": {
-            "type": "INFO_BOX",
-            "title": "Info box",
-            "colour": "sky",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam",
-            "publish": false
-          },
-          "id": "f9481e9e-d3f6-471e-a28d-a11644156717",
-          "version": "3fb2fa37-7386-4a86-a479-c530832fc64e",
-          "type": "INFO_BOX"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "3a3b8c1b-1c1d-495c-aa2f-dbfb262eeedc.jpg",
-              "cid": "8196e38b-7457-422b-9341-b52904c30c5e",
-              "size": 842088,
-              "width": 768,
-              "height": 570,
-              "mimetype": "image/jpeg",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/3a3b8c1b-1c1d-495c-aa2f-dbfb262eeedc.jpg"
-            },
-            "title": "Hirst",
-            "publish": false
-          },
-          "id": "f7234f38-d3ef-4946-9887-0e7821a9fcb4",
-          "version": "5ec8e5a9-c6d0-4e92-9586-2254b9be01f3",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Njideka Akunyili was born in 1983 and raised in Enugu, Nigeria. She is of Igbo descent and grew up bilingual in Igbo and English. One of six siblings, Akunyili Crosby's father, Chike Akunyili, was a surgeon and her mother, Dora Akunyili, was a professor of pharmacology at the University of Nigeria, and the former director of the National Agency for Food and Drug Administration. \n\nAkunyili Crosby moved to Lagos when she was thirteen years old to attend the secondary school Queen's College (QC) Yaba, Lagos. Her mother won the U.S. green card lottery for the family, enabling Akunyili Crosby and her siblings to move to the United States and to get financial aid to study there.",
-            "heading": {
-              "title": "Njideka Akunyili",
-              "headingType": "h2"
-            },
-            "publish": false
-          },
-          "id": "53ad3d1e-eb77-44bd-9ced-11d00e120e73",
-          "version": "d723460f-29cd-4324-9f0c-331f72894baa",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "INFO_BOX",
-            "title": "Green info box",
-            "colour": "green",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam",
-            "publish": false
-          },
-          "id": "a87e8d51-b2c6-4cb7-b2de-fae538f73be7",
-          "version": "69195fb1-3c38-4453-8091-6468cc94cf51",
-          "type": "INFO_BOX"
-        },
-        {
-          "content": {
-            "type": "ORDERED_LIST",
-            "items": [
-              "Art Nouveau",
-              "Art Deco",
-              "American Kitsch",
-              "Swiss/International\n",
-              "Psychedelic",
-              "Punk",
-              "Grunge",
-              "Minimalist and Flat",
-              "3-Dimensional"
-            ],
-            "publish": false
-          },
-          "id": "cb0e5da4-ee74-4fe3-b223-12a50530bff3",
-          "version": "3f00325a-1742-4e4b-8431-732e7d0c3532",
-          "type": "ORDERED_LIST"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "77eac156-b05f-4a6e-9bb4-dd934bbdad04.jpg",
-              "cid": "0b9db238-7556-4552-8714-54ee1ae66634",
-              "size": 434608,
-              "width": 768,
-              "height": 490,
-              "mimetype": "image/jpeg",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/77eac156-b05f-4a6e-9bb4-dd934bbdad04.jpg"
-            },
-            "title": "Njideka Akunyili",
-            "publish": false
-          },
-          "id": "2273f6b8-b66d-441e-931c-fd53d9ad4a43",
-          "version": "66ed98eb-e2ce-4bc0-917d-f3d616c731a4",
-          "type": "IMAGE"
-        }
-      ]
-    },
-    "hh_page": {
-      "id": "3d04ec13-71ac-4e6a-a8fe-243879573008",
-      "identifier": "hh_page",
-      "version": "a0eea190-a8cb-42ef-9db1-70809ca7ecb5",
-      "title": "Add pages",
-      "content": {
-        "tags": [
-          {
-            "label": "Headlesshost",
-            "value": "Headlesshost"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "PAGE_HEADER",
-            "title": "Add pages",
-            "created": "2024-09-16",
-            "authorSelect": "c3451fcc-afe1-4e53-8a0a-e1d8fac84d3f",
-            "introduction": "Adding pages using this sample site is achieved with a couple of distinct steps:"
-          },
-          "id": "022106ec-5758-400e-a5d0-7ea4f89818c9",
-          "version": "c7beefb5-6b7f-4fb2-9e11-6bbfd517cf3f",
-          "type": "PAGE_HEADER"
-        },
-        {
-          "content": {
-            "type": "ORDERED_LIST",
-            "items": [
-              "Insert the new page and configure the identifier. ",
-              "Add the page to left menu using the common fields."
-            ]
-          },
-          "id": "7f073e5c-c390-463e-bbd2-d0d19b882187",
-          "version": "95254f03-98cb-4231-846f-dc502a0dc5fb",
-          "type": "ORDERED_LIST"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Insert a new page.",
-            "publish": false
-          },
-          "id": "98241013-c479-485c-96de-4ca3d223d66e",
-          "version": "a2771135-8fdd-4037-90a1-58c97e523dba",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "badc12e9-7842-4100-87c0-5f824a32c91b.png",
-              "cid": "cbe1a020-869e-4abb-aa45-6890e350b421",
-              "size": 62345,
-              "width": 768,
-              "height": 647,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/badc12e9-7842-4100-87c0-5f824a32c91b.png"
-            }
-          },
-          "id": "3f6898be-9799-4ff5-aea2-dc8ba24e69ca",
-          "version": "4f38c57b-fa29-4031-b50f-b42853f5750a",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Click on the \"edit fields\" link in the common fields section.",
-            "publish": false
-          },
-          "id": "9967a31a-d0ac-4e02-afc1-f99473583238",
-          "version": "15be6a5c-c806-4fb4-a8cf-5e405bedc253",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "dc8f7181-776f-4fdb-ad70-7480f7e64d76.png",
-              "cid": "0dca2e7f-b9cc-45b3-9de7-ae465add8202",
-              "size": 51894,
-              "width": 768,
-              "height": 547,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/dc8f7181-776f-4fdb-ad70-7480f7e64d76.png"
-            }
-          },
-          "id": "d1fbe28e-40cc-4938-9eb0-b6488f8838be",
-          "version": "68a0c46a-f747-4044-a161-abe5e155cb06",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Add a new menu item with a page title and choose this page from the drop down menu."
-          },
-          "id": "ae082213-a2f2-47e9-94d5-211ffffb369c",
-          "version": "834441ef-3699-4ee0-98e0-c663c8ecf1f0",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "bcb0de68-a3db-4867-9a3c-b396410cd64b.png",
-              "cid": "5f848560-01fd-4761-b41d-3ccce8dc6139",
-              "size": 48769,
-              "width": 768,
-              "height": 512,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/bcb0de68-a3db-4867-9a3c-b396410cd64b.png"
-            }
-          },
-          "id": "2f861061-5d50-4efc-b680-3278b3af155e",
-          "version": "5387e9cf-f932-4567-84e9-83f4da8f7ed1",
-          "type": "IMAGE"
-        }
-      ]
-    },
-    "dp_local": {
-      "id": "04b4693f-de8c-44b7-87e1-5fb63c7d60c9",
-      "identifier": "dp_local",
-      "version": "cb0a19b1-eb3d-4d59-80ae-78ca8da70b4b",
-      "title": "Local deployment",
-      "content": {
-        "tags": [
-          {
-            "label": "Deployment",
-            "value": "Deployment"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "PAGE_HEADER",
-            "title": "Local deployment",
-            "created": "2024-09-04",
-            "authorSelect": "c3451fcc-afe1-4e53-8a0a-e1d8fac84d3f",
-            "introduction": "If you would like to run the Next.js application locally follow the simple steps below."
-          },
-          "id": "06b36b4b-feec-490e-acfe-edd25a94f8b1",
-          "version": "7e48d02f-cf82-46a4-acdc-31452d4a996a",
-          "type": "PAGE_HEADER"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "https://github.com/Headlesshost/react.nextjs.knowledgebase",
-              "title": "GitHub Repository",
-              "target": "_blank"
-            },
-            "type": "NAV_LINK",
-            "publish": false
-          },
-          "id": "ac699282-936c-4f9e-80e4-174b1b2deeb8",
-          "version": "e8d7e08a-746c-48ff-92b7-cc9499e05ab2",
-          "type": "NAV_LINK"
-        },
-        {
-          "content": {
-            "type": "STANDARD_HEADING",
-            "heading": {
-              "title": "Local development",
-              "headingType": "h3"
-            },
-            "publish": false
-          },
-          "id": "d96332f4-917b-4011-95cd-c1a07355d92d",
-          "version": "b7e171d8-e4aa-4ad1-a325-c38b36e977ba",
-          "type": "STANDARD_HEADING"
-        },
-        {
-          "content": {
-            "type": "ORDERED_LIST",
-            "items": [
-              "Using the link above clone the repository to your local machine.",
-              "Using your preferred terminal navigate to the root folder of the project. ",
-              "Install the dependancies. From the terminal run > npm install",
-              "Run the application. From the terminal run > npm run dev"
-            ]
-          },
-          "id": "caf019c3-3c43-429b-98e6-46a55d3f3c28",
-          "version": "76222f08-1dea-42d4-94a7-c19c89bbcd58",
-          "type": "ORDERED_LIST"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "http://localhost:3000",
-              "title": "http://localhost:3000",
-              "target": "_blank"
-            },
-            "type": "NAV_LINK",
-            "publish": false
-          },
-          "id": "c7cab973-d04e-4d75-9336-27ef811ab542",
-          "version": "416c7969-e9af-4566-8d87-d25b4aba7382",
-          "type": "NAV_LINK"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "All going well the application should be running on localhost:3000 and the content should look similar to this site.\n\nWe now need to login or create an account in Headlesshost so we can create our own content."
-          },
-          "id": "e87b7d00-86bb-45f2-aa20-c1e4b75ddec7",
-          "version": "183341f0-45e2-4e02-b20b-ed8640975c3e",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "https://headlesshost.com/",
-              "title": "Login or Create",
-              "target": "_blank"
-            },
-            "type": "ACTION_BOX",
-            "title": "Headlesshost account setup",
-            "content": "We are now going to login or create a Headlesshost account.  Once logged in we can create a new content site and connect the Next.js template."
-          },
-          "id": "5fbfb3bf-0217-44f1-9123-07f7a2f20284",
-          "version": "7b18096d-2a0b-4f66-a9a5-f14aece69798",
-          "type": "ACTION_BOX"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Click on the login button.",
-            "publish": false
-          },
-          "id": "fd66a6d7-a5f4-4f55-81d2-51384fec0399",
-          "version": "2108907c-2283-4054-a66c-86072382aa65",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "b9f8c032-8770-4c7b-89d7-489a94855395.png",
-              "cid": "b40edec1-415f-4a39-9a37-9fc68fbe7851",
-              "size": 134093,
-              "width": 768,
-              "height": 474,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/b9f8c032-8770-4c7b-89d7-489a94855395.png"
-            },
-            "title": "Home",
-            "publish": false
-          },
-          "id": "a275b47c-1495-45a7-a082-617d6cb3f60b",
-          "version": "a4d2920d-0b9c-4000-81bd-5f7774c4195d",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Once signed into Headlesshost select the option to create a new content site. \nChoose \"React - Next.js - Documentation sample\""
-          },
-          "id": "41fdd6d2-16d2-472e-9aba-3bb347d24e6c",
-          "version": "edc4a8e0-3702-45cf-91ad-dbbde89e8b8a",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "5fc652ed-1330-489c-a4bb-3f22edf52359.png",
-              "cid": "c04a3d4c-7b8a-41b4-9b6f-07b9d961af7c",
-              "size": 101719,
-              "width": 768,
-              "height": 500,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/5fc652ed-1330-489c-a4bb-3f22edf52359.png"
-            },
-            "title": "Create site"
-          },
-          "id": "5febd433-597d-40d7-8cd9-55187b26add1",
-          "version": "94c422fc-9e94-4aab-b02b-77332911291f",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Now that the content site is created we want to copy the content site Id."
-          },
-          "id": "065d798b-5a1b-4fce-b1d1-ecf173a864b2",
-          "version": "439f9c35-d4a5-4872-8af7-20b37369ffee",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "1191a385-eb57-45ec-af1a-5e05f5642dd8.png",
-              "cid": "241f4553-7b35-4ec6-ba79-e0e8fdbfd99f",
-              "size": 93992,
-              "width": 768,
-              "height": 653,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/1191a385-eb57-45ec-af1a-5e05f5642dd8.png"
-            },
-            "title": "Content site id"
-          },
-          "id": "686fec8a-5442-4b1a-ad18-bd060cda9c1a",
-          "version": "99fb8cee-34fb-4ad1-9fb4-7b07c4d2cd26",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "With the copied id replace the HEADLESSHOST_SITEID in the .env file (root directory of your project). ",
-            "publish": false
-          },
-          "id": "f0893544-b3be-4000-8c8f-2360706d68e8",
-          "version": "2b509f86-ead2-4f4a-83cb-a40dd0122f6b",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "code": "// Current value\nHEADLESSHOST_SITEID=dd7f17ac-4f20-4a28-b109-dd31f9b18f78\n\n// Should be replaced with\nHEADLESSHOST_SITEID={your content site id here} ",
-            "type": "CODE_BLOCK",
-            "title": "Code",
-            "language": "javascript"
-          },
-          "id": "c0dbb1ba-1df6-4fbd-8a19-a1f66013b24d",
-          "version": "b2083cbd-9171-400e-9697-7f8845a1a566",
-          "type": "CODE_BLOCK"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Once you have entered your content site id you should be presented with a page similar to below.",
-            "publish": false
-          },
-          "id": "8270ade1-8da4-43bc-934e-4bccbdcca702",
-          "version": "d87782f9-1cda-455c-99d0-a1c31af1285a",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "24451a6e-cfba-4be4-be71-0a911aba2eb6.png",
-              "cid": "8602027e-699f-4ffa-8b6a-55fb75541089",
-              "size": 92142,
-              "width": 768,
-              "height": 543,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/24451a6e-cfba-4be4-be71-0a911aba2eb6.png"
-            },
-            "title": "Success"
-          },
-          "id": "52532449-639f-4350-a512-2ed00af99fa6",
-          "version": "d5577611-4d78-4dac-b500-e49125a046f5",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "hh_content",
-              "title": "Add content",
-              "target": "_self"
-            },
-            "type": "ACTION_BOX",
-            "title": "Add content",
-            "content": "Now that you are connected to your own content site you can start to add content.",
-            "publish": false
-          },
-          "id": "507293de-c942-49ac-8d11-086733cada99",
-          "version": "9911426d-6829-4e69-ba5d-59beae258aaf",
-          "type": "ACTION_BOX"
-        }
-      ]
-    },
-    "hh_setup": {
-      "id": "9823a548-d2af-49fd-b3a3-0da3cf621d02",
-      "identifier": "hh_setup",
-      "version": "4405e643-c794-4269-bfd9-539de6db78d6",
-      "title": "Staging setup",
-      "content": {
-        "tags": [
-          {
-            "label": "Headlesshost",
-            "value": "Headlesshost"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "PAGE_HEADER",
-            "title": "Staging setup",
-            "created": "2024-09-11",
-            "authorSelect": "7f11b784-d43a-445b-bc57-f7af747e235d",
-            "introduction": "Within Headlesshost you can have multiple staging sites. For the Next.js application to know what instance to use we need to pass the instance id of the staging site in the URL. If this is not configured then hot reloading of content will not work.  \n\nTo get started click the staging site link."
-          },
-          "id": "53adf6c9-23a2-4bf8-a58b-9224dfad1e70",
-          "version": "4e3b3392-17e9-460e-84df-516b5f73c1e2",
-          "type": "PAGE_HEADER"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "64945abf-d2fa-4cc6-8309-b008cdcc115c.png",
-              "cid": "d7231b41-9357-490f-81ea-dc6635c5c6ea",
-              "size": 51130,
-              "width": 768,
-              "height": 500,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/64945abf-d2fa-4cc6-8309-b008cdcc115c.png"
-            },
-            "publish": false
-          },
-          "id": "a1d36332-4e94-45f5-8743-772493a0a666",
-          "version": "3fb06f57-e3d9-4b44-8b85-87c2ae671729",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Select setup from the left menu."
-          },
-          "id": "ace23581-6fff-483e-aa3b-d3540bc25368",
-          "version": "cd8bd5d1-cd2c-4f13-b799-2ec83135b16c",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "5b1dd992-53d7-48cb-8e40-27ba823ba828.png",
-              "cid": "151eb48a-117b-4b47-b3e5-77d582c1ced8",
-              "size": 95226,
-              "width": 768,
-              "height": 478,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/5b1dd992-53d7-48cb-8e40-27ba823ba828.png"
-            },
-            "publish": false
-          },
-          "id": "1c9cc96c-69a7-42d8-9af3-893920f10e68",
-          "version": "d2c9035d-059f-40e4-9e3a-d3709e8ccb0a",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Click on the \"Edit details\" button",
-            "publish": false
-          },
-          "id": "715b56fb-82b8-47e0-8a75-702dc5b03fda",
-          "version": "a81a2f48-c861-40fc-8132-5dbbb2e772da",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "b563e04a-0e46-40cd-a267-0fe2a09f510f.png",
-              "cid": "2eea847a-8e73-42bd-9887-54eb6929d9e3",
-              "size": 74585,
-              "width": 768,
-              "height": 440,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/b563e04a-0e46-40cd-a267-0fe2a09f510f.png"
-            }
-          },
-          "id": "91afa6fc-7f2b-4252-8487-606a87b304e1",
-          "version": "db328f95-56fd-42c4-969b-c34af74f623b",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Copy your domain from your Vercel project",
-            "publish": false
-          },
-          "id": "cdf85b37-5bb8-40b5-af6a-308e86da8cae",
-          "version": "49df163b-95de-4ed1-9aab-94841c8a4458",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "a9401810-d0da-44b7-a763-de2ab932c99a.png",
-              "cid": "ba66ecac-8d78-4e63-a95c-dded84457a31",
-              "size": 52746,
-              "width": 768,
-              "height": 436,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/a9401810-d0da-44b7-a763-de2ab932c99a.png"
-            },
-            "publish": false
-          },
-          "id": "ab864bb6-f4f1-4ad7-88d8-24899867ab19",
-          "version": "fa1f520f-ec98-427e-80bd-2ef27e1b98d2",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Paste the domain in the Stage URL field.\n\nFor the website to know what staging site to render you need to add a /{instance} to the end of the URL as in the example below.  "
-          },
-          "id": "4ed25964-246a-4f5e-8ff3-3a72d820d73d",
-          "version": "e218ec2f-4bf6-4e32-b3df-be7b2e311d4d",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "67e21dc0-7ce2-4421-ae07-3f80cfbd7a59.png",
-              "cid": "aec14b4c-37dc-43df-a78b-276f0e35a797",
-              "size": 46720,
-              "width": 493,
-              "height": 516,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/67e21dc0-7ce2-4421-ae07-3f80cfbd7a59.png"
-            },
-            "publish": false
-          },
-          "id": "8f1e5cbc-0c8e-4028-a1d7-53f64657907a",
-          "version": "f8fc12ab-a0d5-42f3-89a2-b7da1926ba02",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Open your staging site using the link in the right hand menu. Verify that the URL has the staging site instance id appended.\n\nCorrect: \nhttps://react-nextjs-knowledgebase.vercel.app/b08ca852-7166-475c-a3d5-157cdcd74209/gs_intro\n\nWrong: \nhttps://react-nextjs-knowledgebase.vercel.app/knowledgebase/gs_intro "
-          },
-          "id": "221b0b5a-e1d8-4511-9aab-1a55fd048e57",
-          "version": "c1b726ae-e60b-4a28-a049-8361287f043b",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "3aba7f90-09a2-488d-89e8-fc0694f1ba46.png",
-              "cid": "f2ce3f12-0ef4-4cca-b7d3-2c42edf1e918",
-              "size": 95431,
-              "width": 768,
-              "height": 555,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/3aba7f90-09a2-488d-89e8-fc0694f1ba46.png"
-            },
-            "publish": false
-          },
-          "id": "b89fd874-42cf-4cdb-9013-fc204d4e9bde",
-          "version": "26146bd1-379e-4ef3-8ab0-a0905630ff4c",
-          "type": "IMAGE"
-        }
-      ]
-    },
-    "gs_intro": {
-      "id": "b8efef78-4cd0-48ea-b853-2ae149bc0b7e",
-      "identifier": "gs_intro",
-      "version": "21c32ef5-9354-4869-861b-1410ec923a07",
-      "title": "Introduction",
-      "content": {
-        "tags": [
-          {
-            "label": "Getting Started",
-            "value": "Getting Started"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "PAGE_HEADER",
-            "title": "Introduction",
-            "created": "2024-08-23",
-            "authorSelect": "06d270b6-8c8a-4c4b-9f1a-8612341de7f3",
-            "introduction": "Welcome to the Headlesshost documentation sample for Next.js \n\nThis template can be used to create a simple documentation website using Headlesshost and Next.js The sample comes with a number of pre-built components but can be easily extended with your own custom components.\n "
-          },
-          "id": "305203b2-ff67-4b38-8670-758c4f345d77",
-          "version": "7b8c0f4d-cde1-4ba3-838e-2d54433b56ba",
-          "type": "PAGE_HEADER"
-        },
-        {
-          "content": {
-            "link": "https://www.youtube.com/embed/42AY6wqaNWQ?si=zAxi_qlh-WtHjotX",
-            "title": "Quickstart"
-          },
-          "id": "db81cfac-3297-49db-88b4-391ad775d664",
-          "version": "8df49efc-77fb-4bbf-b040-567c666334f3",
-          "type": "VIDEO"
-        },
-        {
-          "content": {
-            "content": "\nWatch the video above to guide you through the install process. You can also watch on Youtube with the link https://www.youtube.com/watch?v=42AY6wqaNWQ"
-          },
-          "id": "e27d9406-d853-45ab-95a8-5be805942f1e",
-          "version": "e30eb5f1-d51b-4b25-85da-8a6458c9d56a",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "STANDARD_HEADING",
-            "heading": {
-              "title": "MCP Server",
-              "headingType": "h2"
-            },
-            "publish": false
-          },
-          "id": "909debeb-b6e2-4a13-a361-8ca1f0d6d756",
-          "version": "bb2d024d-52dc-44cd-bee8-2bfbeb96ef74",
-          "type": "STANDARD_HEADING"
-        },
-        {
-          "content": {
-            "link": "https://www.youtube.com/embed/xGGwcrI7gSo?si=31EmPt5NeQbXl-M3",
-            "type": "VIDEO",
-            "title": "MCP Server",
-            "publish": false
-          },
-          "id": "e3c5321b-c628-42b4-bdfb-d205d13fab02",
-          "version": "bfbea541-b0d2-4ff9-83f2-a21a09a73a5a",
-          "type": "VIDEO"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "If writing help documents doesn't float your boat, we have an MCP server that allows you to let AI do it for you.\n\nIt's very simple to set up. Check out the video above of our first use."
-          },
-          "id": "31f32f88-ae56-40b4-ade0-c03132a90003",
-          "version": "68c5b3e5-f234-4439-99e9-d9ac49f2a968",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "dp_vercel",
-              "title": "Deploy",
-              "target": "_self"
-            },
-            "type": "ACTION_BOX",
-            "title": "Quickstart",
-            "content": "The recommended environment for this application is Vercel, the creators of Next.js. Using Vercel is the no-code approach and offers a number of hosting benefits when coupled with Headlesshost."
-          },
-          "id": "b7c74a50-4d19-48b2-8ea8-71fd834d32af",
-          "version": "59f2a1c3-32ba-4dbb-a135-7ed6940e6aaa",
-          "type": "ACTION_BOX"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "The content in this sample is managed by Headlesshost which is a headless content management system (CMS). Here's a breakdown of its key features and characteristics:",
-            "heading": {
-              "title": "Headlesshost CMS",
-              "headingType": "h3"
-            }
-          },
-          "id": "f2240f3f-41a0-475a-ba49-51be5e915d8a",
-          "version": "7a9c9fc7-512e-4764-902c-da8f4cb7b02d",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "ORDERED_LIST",
-            "items": [
-              "API-First Approach: Headlesshost is designed with an API-first philosophy. It provides RESTful APIs that allow designers to fetch content and present it on any platform, enabling flexible content delivery.",
-              "Cloud-Based and SaaS: Headlesshost is a cloud-based SaaS platform, meaning it is hosted and maintained by Headlesshost, freeing users from the need to manage their own infrastructure. This also allows for automatic updates and scalability.",
-              "User-Friendly Interface: Headlesshost offers a user-friendly web interface where non-technical users can easily create, edit, and manage content. This separation of concerns helps streamline content workflows.",
-              "Content Modeling: Headlesshost allows users to create custom content models that define the structure of content types (e.g., blog posts, products, landing pages). This flexibility enables businesses to tailor the CMS to their specific needs."
-            ]
-          },
-          "id": "79c57ff5-ec20-436e-998f-a7cddbff17b3",
-          "version": "70388b30-d9d7-4dff-b13b-67aa89d3f52e",
-          "type": "ORDERED_LIST"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "70d3031d-942a-481e-a590-ce2c34961f38.png",
-              "cid": "45dbc9de-f394-46d2-9cf3-d89bd253fbc1",
-              "size": 92176,
-              "width": 768,
-              "height": 481,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/70d3031d-942a-481e-a590-ce2c34961f38.png"
-            },
-            "title": "Headlesshost",
-            "publish": false
-          },
-          "id": "9706217c-5809-482c-a391-ed2d97898c92",
-          "version": "641eb1ba-713c-4c22-956c-ce837328f501",
-          "type": "IMAGE"
-        }
-      ]
-    },
-    "hh_content": {
-      "id": "6267e408-5b54-462f-b4a9-d593dab3ca14",
-      "identifier": "hh_content",
-      "version": "43fee7d2-258d-430b-a1a0-e629a151eb31",
-      "title": "Add content",
-      "content": {
-        "tags": [
-          {
-            "label": "Headlesshost",
-            "value": "Headlesshost"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "PAGE_HEADER",
-            "title": "Add content",
-            "created": "2024-08-28",
-            "authorSelect": "9005d547-c916-4c5f-99ca-c64883b09407",
-            "introduction": "Once your Next.js application is connected to your own content site you can start adding content. To get started follow the steps below."
-          },
-          "id": "40bc75c5-95b0-457c-9d52-a8565cea8d10",
-          "version": "7da0bfb7-6efc-4da5-9680-a6a4bebfc819",
-          "type": "PAGE_HEADER"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "Click on \"Insert new section\" within any page.",
-            "heading": {
-              "title": "Adding content",
-              "headingType": "h2"
-            }
-          },
-          "id": "b84f9961-42b7-469b-a8c8-ff8e9c7cf75b",
-          "version": "88bf65f7-75f1-4d8f-9f76-5e738a5c9fb5",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "57f8b7e1-290d-4735-8a48-53b326bed6f2.png",
-              "cid": "c18c9a52-2f62-4f46-a6e3-3caaf99ab074",
-              "size": 83371,
-              "width": 768,
-              "height": 630,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/57f8b7e1-290d-4735-8a48-53b326bed6f2.png"
-            },
-            "publish": false
-          },
-          "id": "ed20cee4-88f5-4cf0-a201-b6c79f194b96",
-          "version": "f2cfe195-fec9-4d58-844d-888ef5127e86",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Select any section",
-            "publish": false
-          },
-          "id": "dcde5a66-9845-477e-88c9-61759f5fa4da",
-          "version": "b6a80e9b-4339-4137-be4f-ad7fae28fe89",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "3dddd2eb-c19f-4cd4-82f9-68ddafac6c1b.png",
-              "cid": "60c800b9-b3cb-46bc-91ea-52c76b54a846",
-              "size": 80970,
-              "width": 768,
-              "height": 473,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/3dddd2eb-c19f-4cd4-82f9-68ddafac6c1b.png"
-            },
-            "publish": false
-          },
-          "id": "834c7e9a-cd7b-4d9e-917a-f26ef94c6351",
-          "version": "001a3d43-616b-46e4-8df4-9e47ee391dc2",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Add content to your section and save your changes."
-          },
-          "id": "bc473061-f999-4550-9576-1b4729e7a0a6",
-          "version": "f424595e-82e7-41c7-8a8a-1be7741ba0f5",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "8d4e9845-51a7-45a0-919c-a9055ba6b375.png",
-              "cid": "7e18bb24-d8a2-42c6-8553-48f24dc5a943",
-              "size": 56912,
-              "width": 768,
-              "height": 612,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/8d4e9845-51a7-45a0-919c-a9055ba6b375.png"
-            },
-            "publish": false
-          },
-          "id": "a230fb9a-cfdd-45ba-ba6a-ae9b71d6b079",
-          "version": "b08cd1ef-d2ed-4aac-b99e-371330862572",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Your staging site should automatically update reflecting your changes.",
-            "publish": false
-          },
-          "id": "2fb153b8-6829-402a-a172-8eac3b989c53",
-          "version": "8dcfbb89-298d-4d37-9095-7e6cbf666ebd",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "58d9663e-859c-4ae2-8986-6fcb5ba94aa4.png",
-              "cid": "53b82c41-563e-4165-a3cd-13e0a2f93172",
-              "size": 133630,
-              "width": 768,
-              "height": 580,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/58d9663e-859c-4ae2-8986-6fcb5ba94aa4.png"
-            },
-            "publish": false
-          },
-          "id": "bb9b6df9-d4fe-4c19-a38f-405038500e61",
-          "version": "394042c6-48dd-448c-b93f-11460421e7be",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK_WITH_HEADER",
-            "content": "If your content doesn't hot reload then check your instance id setup as outlined in the \"Staging setup\".  ",
-            "heading": {
-              "title": "Troubleshooting",
-              "headingType": "h2"
-            }
-          },
-          "id": "48ef3b58-76f2-4b5b-b8e2-b1da27fd0e35",
-          "version": "8a5e41b9-f1e5-4064-a119-bdbcde528140",
-          "type": "TEXT_BLOCK_WITH_HEADER"
-        }
-      ]
-    },
-    "ab_contact": {
-      "id": "257ac7dd-b969-44ab-98b7-5ca045be10ad",
-      "identifier": "ab_contact",
-      "version": "701201b9-9a6c-4d5e-9ff3-ab3dd23a12f7",
-      "title": "Contact",
-      "content": {
-        "tags": [
-          {
-            "label": "About",
-            "value": "About"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "CONTACT_FORM",
-            "title": "Let's talk",
-            "introduction": "Please complete the form below and we will be in touch as soon as possible."
-          },
-          "id": "8f0096b7-d142-43e3-8684-851bdff2454b",
-          "version": "46633a1b-31c2-4108-809e-fb8e6fa8a741",
-          "type": "CONTACT_FORM"
-        }
-      ]
-    },
-    "dp_vercel": {
-      "id": "26d9b886-a643-4820-8990-ae70f24986d4",
-      "identifier": "dp_vercel",
-      "version": "bd7292f4-e07d-4b36-a912-4bf3febc6be2",
-      "title": "Vercel deployment",
-      "content": {
-        "tags": [
-          {
-            "label": "Deployment",
-            "value": "Deployment"
-          }
-        ],
-        "extendedProperties": []
-      },
-      "sections": [
-        {
-          "content": {
-            "type": "PAGE_HEADER",
-            "title": "Vercel deployment",
-            "created": "2024-09-04",
-            "authorSelect": "7f11b784-d43a-445b-bc57-f7af747e235d",
-            "introduction": "The best way to deploy this Next.js app is to use the Vercel Platform from the creators of Next.js.\n\nVercel provides pre-production features that couple perfectly with Headlesshost staging sites. These features enable users to preview content changes in real time and collaborate with the Vercel inline commenting tools.\n\nIf you haven't already deployed, click on the link below where you will be guided through the Vercel deploy.\n"
-          },
-          "id": "666e617e-7965-4898-b038-98074baadb1e",
-          "version": "b5de20a2-8b13-4839-98b9-1606b8c020e6",
-          "type": "PAGE_HEADER"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHeadlesshost%2Freact.nextjs.knowledgebase&project-name=knowledgebase&repository-name=knowledgebase&demo-title=Headlesshost%20Knowledgebase&demo-description=A%20Next.js%20knowledgebase%20backed%20by%20Headlesshost&demo-url=https%3A%2F%2Freact-nextjs-knowledgebase.vercel.app&demo-image=https%3A%2F%2Fgithub.com%2FHeadlesshost%2Freact.nextjs.knowledgebase%2Fraw%2Fmaster%2Fpublic%2Fhome.png",
-              "title": "Deploy on Vercel",
-              "target": "_blank"
-            },
-            "type": "NAV_LINK"
-          },
-          "id": "79d199c8-d807-435e-aacf-217d6cd2fd72",
-          "version": "27137a58-71c0-4e70-8bdd-47d4d7de6799",
-          "type": "NAV_LINK"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "All going well the application should be running on the Vercel environment and the content should look similar to this site.\n\nClick Visit inside your Vercel project site to verify the application is running."
-          },
-          "id": "f94b914a-262f-4b10-978f-343ed8663eb0",
-          "version": "4ce1eba5-adc4-42e2-85dc-8cebda2c2e96",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "aeea9e55-ab53-403a-bfae-39c411ae77c2.png",
-              "cid": "e7c59baf-5ae1-4a5a-8207-4d063057eb0e",
-              "size": 29141,
-              "width": 768,
-              "height": 216,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/aeea9e55-ab53-403a-bfae-39c411ae77c2.png"
-            },
-            "publish": false
-          },
-          "id": "b1647517-26e1-4c00-9188-95337154decd",
-          "version": "f859e932-aab3-4d03-a7f3-740dbcaa7acc",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "We now need to login or create an account in Headlesshost so we can create our own content.",
-            "publish": false
-          },
-          "id": "f574a986-c860-4ae6-96da-14f0b832f397",
-          "version": "4f9ed048-76c9-45eb-913f-a1480949e8cb",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "https://headlesshost.com",
-              "title": "Login or create",
-              "target": "_blank"
-            },
-            "type": "ACTION_BOX",
-            "title": "Headlesshost account setup",
-            "content": "We are now going to login or create a Headlesshost account.  Once logged in we can create a new content site and connect the Next.js template.",
-            "publish": false
-          },
-          "id": "0b5c8d37-ff12-4133-a289-65f0feba4056",
-          "version": "6f907d94-f188-4d84-8082-ba8722b345e8",
-          "type": "ACTION_BOX"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Click on the login button.",
-            "publish": false
-          },
-          "id": "7d26d0f5-ec3d-4d8b-a2ef-b5484fb0d09b",
-          "version": "a22fe027-e5fe-4a45-893b-244c336c3b8c",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "95abde78-4c6f-4755-8cc5-574d611c8050.jpg",
-              "cid": "52818e7a-5b01-48c6-8fa6-db893ccd9eee",
-              "size": 117342,
-              "width": 768,
-              "height": 474,
-              "mimetype": "image/jpeg",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/95abde78-4c6f-4755-8cc5-574d611c8050.jpg"
-            },
-            "publish": false
-          },
-          "id": "794ca8ec-7af1-4ad6-bc43-1ca31724858d",
-          "version": "4b3f59ca-11d9-4462-8f66-a0300750a87d",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Once signed into Headlesshost select the option to create a new content site. \nChoose \"React - Next.js - Documentation sample\"",
-            "publish": false
-          },
-          "id": "e4c94b13-4cda-4bde-b075-e6b88c98a408",
-          "version": "bd95671e-10cd-40b8-8aa9-c3416f318f81",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "351669ed-bf3d-4d52-be7f-e5f51c3723ea.png",
-              "cid": "6f4369fe-8988-41ee-af98-8e3864d56441",
-              "size": 101719,
-              "width": 768,
-              "height": 500,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/351669ed-bf3d-4d52-be7f-e5f51c3723ea.png"
-            },
-            "publish": false
-          },
-          "id": "cc08fad1-ee2f-410a-b681-df84bfb6bf6f",
-          "version": "ced74165-c884-48d2-b79b-26349cb9c6eb",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Now that the content site is created we want to copy the content site Id.",
-            "publish": false
-          },
-          "id": "7ad97bcd-7bdc-47a9-bee4-c08eb0bf10d5",
-          "version": "1f3968a2-d10e-4859-95df-c2c473eebd27",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "ad861699-d462-4423-9f54-dbc67dbcb178.png",
-              "cid": "4a50b612-aacd-4f0c-b597-6a6351e2285a",
-              "size": 93992,
-              "width": 768,
-              "height": 653,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/ad861699-d462-4423-9f54-dbc67dbcb178.png"
-            },
-            "publish": false
-          },
-          "id": "8de8ff61-2b4b-4b49-ba7a-4dbcd2e5f762",
-          "version": "165ce655-2350-44af-89fd-5b4958c9b623",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Back in the Vercel project, click on Settings and choose Environment Variables.\n\nAdd a new variable called HEADLESSHOST_SITEID and set its value to be your newly created content site id.",
-            "publish": false
-          },
-          "id": "557f8635-fe86-4d4d-8b68-66500e2d699c",
-          "version": "bf61d2c8-9248-46fb-ab99-b85fa662d486",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "code": "HEADLESSHOST_SITEID",
-            "type": "CODE_BLOCK",
-            "title": "Key",
-            "publish": false,
-            "language": "javascript"
-          },
-          "id": "fa4cf245-0d72-4927-8b1f-783f5753c156",
-          "version": "03c4e807-bf93-4556-8a32-772a14f186da",
-          "type": "CODE_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "087b47d3-82ae-4a82-b3f2-1d27b28d5594.png",
-              "cid": "f2f4c33a-b8a8-48e1-a737-da66ded4e960",
-              "size": 50969,
-              "width": 768,
-              "height": 386,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/087b47d3-82ae-4a82-b3f2-1d27b28d5594.png"
-            },
-            "publish": false
-          },
-          "id": "e493a9ed-200d-4cc3-93fa-56d27e9831c2",
-          "version": "1cc90c72-c872-4e54-bd7f-08da54cae443",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Now navigate to the deployments tab and redeploy the latest version of your application. Doing this will apply your variable change.",
-            "publish": false
-          },
-          "id": "b07d134e-d92c-4578-b001-e0dbf5883836",
-          "version": "6faa0da9-42a3-485f-95b4-b59f87456013",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "91b305e8-02e8-4c75-85c7-2f1f057e8822.png",
-              "cid": "7d35b4fb-19b1-4291-891b-644a1c748b3f",
-              "size": 43771,
-              "width": 768,
-              "height": 425,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/91b305e8-02e8-4c75-85c7-2f1f057e8822.png"
-            },
-            "publish": false
-          },
-          "id": "30ecc78d-9fef-47a8-98a9-304048a13d1f",
-          "version": "2de541be-70ba-44b8-863d-f2bafbace5a0",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "type": "TEXT_BLOCK",
-            "content": "Your site should have updated to look like the image below. The next stage is to add your own content and set the staging site instance for hot reloading."
-          },
-          "id": "155b98bd-ae56-46d8-a769-ed23236f93d9",
-          "version": "6412c1c6-909a-4548-8d8e-1f7af7b04a90",
-          "type": "TEXT_BLOCK"
-        },
-        {
-          "content": {
-            "type": "IMAGE",
-            "image": {
-              "id": "d36b01fa-a59c-4141-b0fd-c13aad52ff6c.png",
-              "cid": "59c6e18b-4d74-462a-b4ec-ec48a6417375",
-              "size": 92142,
-              "width": 768,
-              "height": 543,
-              "mimetype": "image/png",
-              "url": "https://assets.headlesshost.com/publications/dd7f17ac-4f20-4a28-b109-dd31f9b18f78/976e0cb4-f04f-4df3-9056-8deb31095e1d/d36b01fa-a59c-4141-b0fd-c13aad52ff6c.png"
-            },
-            "publish": false
-          },
-          "id": "04753b7b-9931-4407-9ecf-826e323e904c",
-          "version": "bb3bd204-8180-4ac3-927a-778c9572c594",
-          "type": "IMAGE"
-        },
-        {
-          "content": {
-            "link": {
-              "slug": "hh_setup",
-              "title": "Final config",
-              "target": "_self"
-            },
-            "type": "ACTION_BOX",
-            "title": "Final configuration",
-            "content": "The next step is to configure your staging site and add content.\nNote: It is important to complete the next steps to enable hot reloading."
-          },
-          "id": "20d3284c-e301-4d0f-b90c-9788ba796207",
-          "version": "40ef2238-3a44-4731-b06a-e470bcd4f6f1",
-          "type": "ACTION_BOX"
         }
       ]
     }

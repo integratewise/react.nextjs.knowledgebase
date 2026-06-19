@@ -1,7 +1,8 @@
 {
-  "name": "react.nextjs.knowledgebase",
+  "name": "integratewise-docs",
   "version": "0.1.0",
   "private": true,
+  "description": "IntegrateWise public documentation — Knowledge Workspace, Adaptive Spine, Continuity Bridge, Twin, Handoff. Recreated using Next.js knowledgebase template.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

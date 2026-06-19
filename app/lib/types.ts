@@ -59,4 +59,4 @@ export interface ImageDetails {
   id: string;
 }
 
-export const ProductionSlug: string = "knowledgebase";
+export const ProductionSlug: string = "docs"; // Main docs at /docs/<slug> e.g. /docs/what-is-integratewise

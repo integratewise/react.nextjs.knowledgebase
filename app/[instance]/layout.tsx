@@ -33,6 +33,6 @@ export default async function Layout({ children, params }: { children: React.Rea
 }
 
 export const metadata: Metadata = {
-  title: "Knowledgebase",
-  description: "Knowledgebase",
+  title: "IntegrateWise Documentation",
+  description: "IntegrateWise Knowledge Workspace documentation — Adaptive Spine, Continuity Bridge, Twin, and Handoff.",
 };

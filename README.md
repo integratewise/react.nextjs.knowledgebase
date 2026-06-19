@@ -1,4 +1,10 @@
-## Headlesshost Knowledgebase - Documentation Template
+## IntegrateWise Documentation (Next.js Knowledgebase)
+
+This is the official IntegrateWise public documentation site, forked from the Headlesshost React/Next.js knowledgebase template and fully recreated with IntegrateWise content.
+
+**Live goal**: docs.integratewise.ai
+
+The site uses local data mode (`USE_LOCAL_DATA=true`) with a structured `data/data.json` containing all pages as sections.
 
 This template can be used to create a simple documentation website using Headlesshost and Next.js The sample comes with a number of pre-built components but can be easily extended with your own custom designs.
 
