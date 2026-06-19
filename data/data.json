@@ -47,35 +47,73 @@
             "links": [
               { "slug": "what-is-integratewise", "title": "What Is IntegrateWise" },
               { "slug": "the-turning-point", "title": "The Turning Point" },
+              { "slug": "day-one", "title": "Day One Experience" },
               { "slug": "continuity-maintenance", "title": "Continuity Maintenance" }
             ]
           },
           {
-            "group": "Core Concepts",
+            "group": "Adaptive Spine",
             "links": [
               { "slug": "what-the-spine-is", "title": "What the Spine Is" },
               { "slug": "what-it-connects", "title": "What It Connects" },
               { "slug": "adaptive-by-design", "title": "Adaptive by Design" },
+              { "slug": "grows-with-you", "title": "Grows with You" },
+              { "slug": "truth-boundary", "title": "The Truth Boundary" }
+            ]
+          },
+          {
+            "group": "Knowledge Workspace",
+            "links": [
               { "slug": "how-the-workspace-works", "title": "How the Workspace Works" },
-              { "slug": "the-twin", "title": "The Twin" }
+              { "slug": "day-one", "title": "Day One Experience" },
+              { "slug": "entity-360", "title": "Entity 360" }
+            ]
+          },
+          {
+            "group": "Cognitive Shell & Twin",
+            "links": [
+              { "slug": "the-twin", "title": "The Twin" },
+              { "slug": "how-the-overlay-works", "title": "How the Overlay Works" },
+              { "slug": "signals-and-think", "title": "Signals & Think" },
+              { "slug": "approval-driven-execution", "title": "Approval-Driven Execution" },
+              { "slug": "the-continuous-loop", "title": "The Continuous Loop" }
+            ]
+          },
+          {
+            "group": "Data Flows & Memory",
+            "links": [
+              { "slug": "structured-truth", "title": "Structured Truth" },
+              { "slug": "unstructured-context", "title": "Unstructured Context" },
+              { "slug": "ai-knowledge-memory", "title": "AI Knowledge & Memory" }
             ]
           },
           {
             "group": "Guides",
             "links": [
-              { "slug": "connectors-overview", "title": "Connectors Overview" }
+              { "slug": "connectors-overview", "title": "Connectors Overview" },
+              { "slug": "how-connectors-work", "title": "How Connectors Work" }
             ]
           },
           {
             "group": "Solutions",
             "links": [
-              { "slug": "solutions-overview", "title": "Solutions Overview" }
+              { "slug": "solutions-overview", "title": "Solutions Overview" },
+              { "slug": "account-success", "title": "Account Success" },
+              { "slug": "sales-ops", "title": "Sales Ops" }
+            ]
+          },
+          {
+            "group": "Who It's For",
+            "links": [
+              { "slug": "founders-and-leaders", "title": "Founders & Leaders" },
+              { "slug": "revenue-teams", "title": "Revenue & Customer Teams" }
             ]
           },
           {
             "group": "Reference",
             "links": [
               { "slug": "glossary", "title": "Glossary" },
+              { "slug": "faq", "title": "FAQ" },
               { "slug": "customer-zero-verification", "title": "Customer Zero Verification" },
               { "slug": "customer-zero-runbook", "title": "Customer Zero Runbook" }
             ]
@@ -89,11 +127,16 @@
       "pages": [
         { "slug": "what-is-integratewise", "title": "What Is IntegrateWise" },
         { "slug": "the-turning-point", "title": "The Turning Point" },
+        { "slug": "day-one", "title": "Day One Experience" },
+        { "slug": "continuity-maintenance", "title": "Continuity Maintenance" },
         { "slug": "what-the-spine-is", "title": "What the Spine Is" },
         { "slug": "what-it-connects", "title": "What It Connects" },
         { "slug": "adaptive-by-design", "title": "Adaptive by Design" },
         { "slug": "how-the-workspace-works", "title": "How the Workspace Works" },
+        { "slug": "entity-360", "title": "Entity 360" },
         { "slug": "the-twin", "title": "The Twin" },
+        { "slug": "how-the-overlay-works", "title": "How the Overlay Works" },
+        { "slug": "structured-truth", "title": "Structured Truth" },
         { "slug": "connectors-overview", "title": "Connectors Overview" },
         { "slug": "solutions-overview", "title": "Solutions Overview" },
         { "slug": "glossary", "title": "Glossary" },
@@ -412,6 +455,143 @@
             "content": "1. Create tenant\n2. Complete profile\n3. Verify Identity box turns green\n4. Connect first connector\n5. Trigger hydration / initial sync\n6. Confirm Spine data partitions have rows\n7. Promote first memories to org_memory\n8. Verify Continuity assembler returns context\n9. Activate Twin and confirm proposals\n10. Perform end-to-end approval + handoff test\n11. Capture full green panel + evidence"
           }
         }
+      ]
+    },
+    "adaptive-by-design": {
+      "title": "Adaptive by Design",
+      "sections": [
+        {
+          "id": "ph11",
+          "type": "PAGE_HEADER",
+          "content": {
+            "title": "Adaptive by Design",
+            "introduction": "The Knowledge Workspace doesn't deliver the same experience to every team. The Adaptive Spine adapts — based on your industry and your department.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
+        },
+        {
+          "id": "abd1",
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "heading": { "headingType": "h2", "title": "The Schema System" },
+            "content": "At the core of IntegrateWise's adaptability is the schema system. When your workspace is configured, a schema is composed from two inputs:\n\nIndustry + Department = Your Schema\n(1 of 11) + (1 of 12) = (unique config)\n\nThis schema controls everything downstream: which entities appear, which metrics are calculated, which signals are generated, which domain views are active, and how the Cognitive Shell scopes intelligence."
+          }
+        },
+        {
+          "id": "abd2",
+          "type": "INFO_BOX",
+          "content": {
+            "colour": "slate",
+            "title": "Same Spine, Different Shape",
+            "content": "The same Adaptive Spine, different views in the Knowledge Workspace. The configuration adapts the experience to your industry and department."
+          }
+        }
+      ]
+    },
+    "what-it-connects": {
+      "title": "What It Connects",
+      "sections": [
+        {
+          "id": "ph12",
+          "type": "PAGE_HEADER",
+          "content": {
+            "title": "What It Connects",
+            "introduction": "The Adaptive Spine connects SaaS tools, AI services, documents, and every data source into the Knowledge Workspace. Every input is a connector.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
+        },
+        {
+          "id": "wic1",
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "heading": { "headingType": "h2", "title": "Connector Types" },
+            "content": "SaaS Connectors — Business tools via OAuth (Salesforce, HubSpot, Stripe, Zendesk, Jira)\nAI Connectors — AI services and assistants (ChatGPT, Claude, Gemini...)\nMCP Connectors — Model Context Protocol services\nWebhooks — Event-driven sources\nAccelerators — Pre-built domain packages"
+          }
+        },
+        {
+          "id": "wic2",
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "heading": { "headingType": "h2", "title": "Three Data Channels" },
+            "content": "Flow A (Structured Truth) from SaaS tools → Spine\nFlow B (Unstructured Context) from documents, email → Context Store\nFlow C (AI Knowledge) from AI services → Memory Store\n\nThe channel determines how the data is processed, stored, and trusted."
+          }
+        }
+      ]
+    },
+    "day-one": {
+      "title": "Day One Experience",
+      "sections": [
+        {
+          "id": "ph13",
+          "type": "PAGE_HEADER",
+          "content": {
+            "title": "Day One Experience",
+            "introduction": "What happens when you start using IntegrateWise — onboarding, connectors, and first value.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
+        },
+        {
+          "id": "do1",
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "heading": { "headingType": "h2", "title": "At a Glance" },
+            "content": "Access model: Guided onboarding during early access\nInitial setup: Industry, department, roles, and core connectors are configured first\nFirst value: Domain views begin populating as soon as structured data starts flowing\nEarly outcome: Entity 360, signals, and Digital Memory improve with each connector"
+          }
+        },
+        {
+          "id": "do2",
+          "type": "TEXT_BLOCK_WITH_HEADER",
+          "content": {
+            "heading": { "headingType": "h2", "title": "Step 1: Book a Demo" },
+            "content": "IntegrateWise is in early access. The first step is booking a demo where we'll walk through the full system and set up your first tenant."
+          }
+        }
+      ]
+    },
+    "how-the-overlay-works": {
+      "title": "How the Overlay Works",
+      "sections": [
+        {
+          "id": "ph14",
+          "type": "PAGE_HEADER",
+          "content": {
+            "title": "How the Overlay Works",
+            "introduction": "The L2 Cognitive Overlay provides always-on intelligence across your work.",
+            "created": "2026-06-19",
+            "authorSelect": "nirmal"
+          }
+        },
+        {
+          "id": "ho1",
+          "type": "TEXT_BLOCK",
+          "content": {
+            "content": "The Cognitive Overlay sits on top of the Knowledge Workspace. It surfaces signals, insights, and context from the Adaptive Spine and Twin without requiring you to ask.\n\nIt is designed to be passive until you need it, then instantly active."
+          }
+        }
+      ]
+    },
+    "grows-with-you": {
+      "title": "Grows with You",
+      "sections": [
+        { "id": "gw1", "type": "PAGE_HEADER", "content": { "title": "Grows with You", "introduction": "The more you use IntegrateWise, the more valuable it becomes.", "created": "2026-06-19", "authorSelect": "nirmal" } },
+        { "id": "gw2", "type": "TEXT_BLOCK", "content": { "content": "Knowledge Memory accumulates. Signals become smarter. The Twin gets better context. Your workspace compounds over time without extra configuration." } }
+      ]
+    },
+    "truth-boundary": {
+      "title": "The Truth Boundary",
+      "sections": [
+        { "id": "tb1", "type": "PAGE_HEADER", "content": { "title": "The Truth Boundary", "introduction": "How IntegrateWise maintains verified truth across all surfaces.", "created": "2026-06-19", "authorSelect": "nirmal" } },
+        { "id": "tb2", "type": "TEXT_BLOCK", "content": { "content": "Only governed, verified data from the Adaptive Spine is exposed. The Twin proposes over grounded context. Approvals teach the system. No hallucinations in the core truth layer." } }
+      ]
+    },
+    "entity-360": {
+      "title": "Entity 360",
+      "sections": [
+        { "id": "e360", "type": "PAGE_HEADER", "content": { "title": "Entity 360", "introduction": "The unified view that converges all domain surfaces.", "created": "2026-06-19", "authorSelect": "nirmal" } },
+        { "id": "e360b", "type": "TEXT_BLOCK", "content": { "content": "No matter which domain view you start from, everything leads to the complete picture of an entity — structured truth, unstructured context, signals, memory, and proposals in one place." } }
       ]
     }
   }
