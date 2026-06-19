@@ -35,19 +35,28 @@ For a guide on how to connect your own content <a href="https://react-nextjs-kno
 </a>
 <br/>
 
-## Deploy Locally
-
-Alternatively you can deploy locally.
-
-First, install packages and then run the development server:
+## Run Locally (IntegrateWise Docs)
 
 ```bash
-# Clone this repo to your local machine
+git clone https://github.com/integratewise/react.nextjs.knowledgebase.git
+cd react.nextjs.knowledgebase
+
+# Use local data mode (no external Headlesshost dependency)
+cp .env.local.example .env.local 2>/dev/null || echo 'USE_LOCAL_DATA=true' > .env.local
 
 npm install
-
 npm run dev
-
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 — it redirects to the main What Is IntegrateWise page.
+
+Full navigation (left sidebar) now covers:
+Getting Started, Adaptive Spine, Knowledge Workspace, Cognitive Shell & Twin, Data Flows & Memory, Guides, Solutions, Who It's For, Reference.
+
+All content aligned to v3.7 (L1 Workbench + L2 Overlay + L3 Twin Workbench + L4 Memory + Approval Center HARD GATE + Handoff).
+
+## Key Pages
+- /docs/what-is-integratewise (authoritative v3.7 text)
+- All spine, workspace, cognitive, connectors, solutions, and reference pages
+
+Governed public projection. Real product terms only.

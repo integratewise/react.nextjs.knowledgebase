@@ -132,14 +132,27 @@
         { "slug": "what-the-spine-is", "title": "What the Spine Is" },
         { "slug": "what-it-connects", "title": "What It Connects" },
         { "slug": "adaptive-by-design", "title": "Adaptive by Design" },
+        { "slug": "grows-with-you", "title": "Grows with You" },
+        { "slug": "truth-boundary", "title": "The Truth Boundary" },
         { "slug": "how-the-workspace-works", "title": "How the Workspace Works" },
         { "slug": "entity-360", "title": "Entity 360" },
         { "slug": "the-twin", "title": "The Twin" },
         { "slug": "how-the-overlay-works", "title": "How the Overlay Works" },
+        { "slug": "signals-and-think", "title": "Signals & Think" },
+        { "slug": "approval-driven-execution", "title": "Approval-Driven Execution" },
+        { "slug": "the-continuous-loop", "title": "The Continuous Loop" },
         { "slug": "structured-truth", "title": "Structured Truth" },
+        { "slug": "unstructured-context", "title": "Unstructured Context" },
+        { "slug": "ai-knowledge-memory", "title": "AI Knowledge & Memory" },
         { "slug": "connectors-overview", "title": "Connectors Overview" },
+        { "slug": "how-connectors-work", "title": "How Connectors Work" },
         { "slug": "solutions-overview", "title": "Solutions Overview" },
+        { "slug": "account-success", "title": "Account Success" },
+        { "slug": "sales-ops", "title": "Sales Ops" },
+        { "slug": "founders-and-leaders", "title": "Founders & Leaders" },
+        { "slug": "revenue-teams", "title": "Revenue & Customer Teams" },
         { "slug": "glossary", "title": "Glossary" },
+        { "slug": "faq", "title": "FAQ" },
         { "slug": "customer-zero-verification", "title": "Customer Zero Verification" },
         { "slug": "customer-zero-runbook", "title": "Customer Zero Runbook" }
       ]
@@ -593,6 +606,38 @@
         { "id": "e360", "type": "PAGE_HEADER", "content": { "title": "Entity 360", "introduction": "The unified view that converges all domain surfaces.", "created": "2026-06-19", "authorSelect": "nirmal" } },
         { "id": "e360b", "type": "TEXT_BLOCK", "content": { "content": "No matter which domain view you start from, everything leads to the complete picture of an entity — structured truth, unstructured context, signals, memory, and proposals in one place." } }
       ]
+    },
+    "signals-and-think": {
+      "title": "Signals & Think",
+      "sections": [ { "id": "st1", "type": "PAGE_HEADER", "content": { "title": "Signals & Think", "introduction": "How the Cognitive Shell surfaces intelligence and Twin reasoning.", "created": "2026-06-19", "authorSelect": "nirmal" } }, { "id": "st2", "type": "TEXT_BLOCK", "content": { "content": "Signals are generated from the Spine and context. The Twin thinks over the full picture and surfaces proposals through the overlay." } } ]
+    },
+    "approval-driven-execution": {
+      "title": "Approval-Driven Execution",
+      "sections": [ { "id": "ade1", "type": "PAGE_HEADER", "content": { "title": "Approval-Driven Execution", "introduction": "All action goes through the HARD GATE in the Approval Center.", "created": "2026-06-19", "authorSelect": "nirmal" } }, { "id": "ade2", "type": "TEXT_BLOCK", "content": { "content": "The Twin proposes. You (or governed rules) approve. Approved work is handed off via the canonical contract. No execution bypasses the Approval Center." } } ]
+    },
+    "the-continuous-loop": {
+      "title": "The Continuous Loop",
+      "sections": [ { "id": "tcl1", "type": "PAGE_HEADER", "content": { "title": "The Continuous Loop", "introduction": "Connect → Think → Approve → Handoff → Learn, repeating.", "created": "2026-06-19", "authorSelect": "nirmal" } }, { "id": "tcl2", "type": "TEXT_BLOCK", "content": { "content": "Outcomes from handed-off work flow back into the Adaptive Spine and Digital Memory, improving future proposals and signals." } } ]
+    },
+    "account-success": {
+      "title": "Account Success",
+      "sections": [ { "id": "as1", "type": "PAGE_HEADER", "content": { "title": "Account Success", "introduction": "L1 solution for customer-facing teams.", "created": "2026-06-19", "authorSelect": "nirmal" } }, { "id": "as2", "type": "TEXT_BLOCK", "content": { "content": "Unified view of accounts with truth from CRM, support, billing, and usage. Signals and Twin proposals focused on retention, expansion, and health." } } ]
+    },
+    "sales-ops": {
+      "title": "Sales Ops",
+      "sections": [ { "id": "so2", "type": "PAGE_HEADER", "content": { "title": "Sales Ops", "introduction": "L1 solution for revenue teams.", "created": "2026-06-19", "authorSelect": "nirmal" } }, { "id": "so3", "type": "TEXT_BLOCK", "content": { "content": "Opportunity, pipeline, and account context in one place. Proposals for next best action powered by the full picture from the Spine." } } ]
+    },
+    "founders-and-leaders": {
+      "title": "Founders & Leaders",
+      "sections": [ { "id": "fl1", "type": "PAGE_HEADER", "content": { "title": "Founders & Leaders", "introduction": "Who It's For: leadership view of the system.", "created": "2026-06-19", "authorSelect": "nirmal" } }, { "id": "fl2", "type": "TEXT_BLOCK", "content": { "content": "High-level visibility into operational truth, memory, and Twin activity across the entire organization without needing to dive into every tool." } } ]
+    },
+    "revenue-teams": {
+      "title": "Revenue & Customer Teams",
+      "sections": [ { "id": "rt1", "type": "PAGE_HEADER", "content": { "title": "Revenue & Customer Teams", "introduction": "Who It's For: CS, Sales, and account teams.", "created": "2026-06-19", "authorSelect": "nirmal" } }, { "id": "rt2", "type": "TEXT_BLOCK", "content": { "content": "Entity 360, signals for risk and opportunity, and Twin proposals tailored for customer-facing work." } } ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "sections": [ { "id": "faq1", "type": "PAGE_HEADER", "content": { "title": "FAQ", "introduction": "Common questions about IntegrateWise.", "created": "2026-06-19", "authorSelect": "nirmal" } }, { "id": "faq2", "type": "TEXT_BLOCK", "content": { "content": "Q: Does the Twin execute directly?\nA: No. The Twin proposes only. Execution happens via the Handoff Layer after Approval Center (HARD GATE).\n\nQ: Can external AIs use IntegrateWise?\nA: Yes, through the Continuity Bridge (MCP primary). They get the same grounded context as the internal Twin." } } ]
     }
   }
 }
